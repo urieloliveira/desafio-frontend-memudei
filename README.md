@@ -18,7 +18,7 @@ Olá, seja bem-vindo ao desafio de frontend da Memudei. Este desafio tem como ob
 
 ## O desafio
 
-Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Yahoo de previsão do tempo (https://developer.yahoo.com/weather/). Não se preocupe caso não consiga consumir a API, vamos avaliar o código, a estrutura do projeto e o layout.
+Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Open Weather de previsão do tempo (https://openweathermap.org/api/one-call-3). Não se preocupe caso não consiga consumir a API, vamos avaliar o código, a estrutura do projeto e o layout. (Dica: você pode usar o https://www.mockapi.io/ para simular uma API).
 O layout final deverá ficar o mais próximo possível da versão abaixo (sim, vamos ter a versão responsiva mobile e a versão desktop):
 
 Web:
