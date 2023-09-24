@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import MeuBotao from './MeuBotao';
+
 
 function WeatherApp() {
   const [location, setLocation] = useState('');
@@ -12,7 +14,7 @@ function WeatherApp() {
     axios
       .get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`)
       .then((response) => {
-        const temperatureInCelsius = response.data.main.temp - 273.15; // Conversão para Celsius
+        const temperatureInCelsius = response.data.main.temp - 273.15;
 
         setWeatherData({
           name: response.data.name,
@@ -31,7 +33,7 @@ function WeatherApp() {
   };
 
   return (
-    <div>
+    <div class="relative">
       <form
         action=""
         onSubmit={(e) => {
@@ -39,14 +41,16 @@ function WeatherApp() {
           getWeather();
         }}
       >
-        <label htmlFor="locationInput">Enter location:</label>
+
         <input
+          class='bg-white border text-black  px-4 py-2 w-full'
           type="text"
           id="locationInput"
+          placeholder='Insira aqui o nome da sua cidade'
           value={location}
           onChange={(e) => setLocation(e.target.value)}
         />
-        <button type="submit">Get Weather</button>
+        <MeuBotao></MeuBotao>
       </form>
 
       {weatherData && (

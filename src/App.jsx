@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div class="flex flex-col justify-center items-center h-screen">
-      <h1 class=''>Previsão do Tempo</h1>
+      <h1 class='text-left font-bold'>Previsão do Tempo</h1>
       <WeatherSearch></WeatherSearch>
     </div>
     </>
