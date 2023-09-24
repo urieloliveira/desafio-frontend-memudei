@@ -1,13 +1,15 @@
 import './App.css'
+import WeatherSearch from './Components/WeatherSearch'
 
 function App() {
 
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div class="flex flex-col justify-center items-center h-screen">
+      <h1 class=''>Previsão do Tempo</h1>
+      <WeatherSearch></WeatherSearch>
+    </div>
     </>
   )
 }
