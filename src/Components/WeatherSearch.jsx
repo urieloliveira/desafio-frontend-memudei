@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import MeuInput from './MeuInput';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import TempMaxMin from './TempMaxMin';
 
 
 function WeatherApp() {
@@ -16,8 +15,8 @@ function WeatherApp() {
 
 
 
-  const handleOpen = (x) => {
-    setOpen(x);
+  const handleOpen = (toggle) => {
+    setOpen(toggle);
   };
 
   const apiKey = '4c5a79d32b5a97ddd95679b42c0f0528';
@@ -59,7 +58,7 @@ function WeatherApp() {
     <div>
       {isOpen && weatherData && (
 
-        <div className='flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-10  '>
+        <div className='flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-10'>
           <div className='flex justify-between  mt-3 text-1xl font-semibold '>
             <div className='flex px-10'>
               <span>{weatherData.name},</span> <span>{weatherData.country}</span>
@@ -87,7 +86,7 @@ function WeatherApp() {
           </div>
           <div className='flex justify-between mt-6 px-10'>
             <div className='flex justify-between  '>
-              <p className='text-start font-thin text-gray-600'>Vento <span className='font-semibold'>{weatherData.wind} km/h</span></p>
+              <p className='text-start font-thin text-gray-600'>Vento <span className='font-semibold text-black'>{weatherData.wind} km/h</span></p>
             </div>
             <div className='mb-3'>
               <span className='text-start font-thin text-gray-600'>Humidade <span className='font-semibold text-black'>{weatherData.humidity}°</span></span>
