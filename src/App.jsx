@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-    <div class="flex flex-col justify-center items-center h-screen">
-      <h1 class='text-left font-bold'>Previsão do Tempo</h1>
+    <div className="flex flex-col  h-screen">
+      <div className='m-8 '>
+      <h1 className='text-white text-6xl text-start font-semibold px-6'>Previsão do tempo</h1>
+      </div>
       <WeatherSearch></WeatherSearch>
     </div>
     </>

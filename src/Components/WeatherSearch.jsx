@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import MeuBotao from './MeuBotao';
+import MeuInput from './MeuInput';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+
 
 
 function WeatherApp() {
@@ -12,17 +17,19 @@ function WeatherApp() {
 
   const getWeather = () => {
     axios
-      .get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`)
+      .get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&lang=pt_br&appid=${apiKey}`)
       .then((response) => {
         const temperatureInCelsius = response.data.main.temp - 273.15;
 
         setWeatherData({
           name: response.data.name,
           country: response.data.sys.country,
-          temperature: parseFloat(temperatureInCelsius.toFixed(2)), // Converter para número de ponto flutuante
-          maxTemperature: parseFloat((response.data.main.temp_max - 273.15).toFixed(2)), // Converter para número de ponto flutuante
-          minTemperature: parseFloat((response.data.main.temp_min - 273.15).toFixed(2)), // Converter para número de ponto flutuante
+          state: response.data.sys.state,
+          temperature: parseFloat(temperatureInCelsius.toFixed()), // Converter para número de ponto flutuante
+          maxTemperature: parseFloat((response.data.main.temp_max - 273.15).toFixed()), // Converter para número de ponto flutuante
+          minTemperature: parseFloat((response.data.main.temp_min - 273.15).toFixed()), // Converter para número de ponto flutuante
           description: response.data.weather[0].description,
+          feels: parseFloat((response.data.main.feels_like - 273.15).toFixed())
         });
         setError(null);
       })
@@ -32,8 +39,38 @@ function WeatherApp() {
       });
   };
 
+
+
   return (
-    <div class="relative">
+    <div>
+      {weatherData && (
+        <div className='flex flex-col bg-red-50 text-black w-full shadow-inner overflow-hidden mb-10 '>
+          <div className='flex justify-between  mt-3 text-1xl font-semibold '>
+            <div className='flex px-10'>
+              <span>{weatherData.name},</span> <span>{weatherData.country}</span>
+            </div>
+            <div className='mr-4 text-2xl text-[#ff7f00] leading-tight'>
+              <button>
+                <FontAwesomeIcon icon={faClose} />
+              </button>
+            </div>
+          </div>
+          <div className='flex justify-around items-center text-4xl font-bold capitalize mt-6'>
+            <p>{weatherData.temperature}°C</p>
+            <p>{weatherData.description}</p>
+          </div>
+          <div className='flex  mt-6'>
+            <p ><FontAwesomeIcon className='text-[#ff7f00]' icon={faArrowDown} />{weatherData.minTemperature}°C</p>
+            <p><FontAwesomeIcon className='text-[#ff7f00]' icon={faArrowUp} />{weatherData.maxTemperature}°C</p>
+            <div>
+              <p>Sensação: {weatherData.feels}°</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {error && <p>Error: {error}</p>}
+
       <form
         action=""
         onSubmit={(e) => {
@@ -41,30 +78,13 @@ function WeatherApp() {
           getWeather();
         }}
       >
-
-        <input
-          class='bg-white border text-black  px-4 py-2 w-full'
-          type="text"
-          id="locationInput"
+        <MeuInput
           placeholder='Insira aqui o nome da sua cidade'
           value={location}
           onChange={(e) => setLocation(e.target.value)}
         />
-        <MeuBotao></MeuBotao>
       </form>
 
-      {weatherData && (
-        <div id="weatherInfo">
-          <p>Location: {weatherData.name}</p>
-          <p>Country: {weatherData.country}</p>
-          <p>Temperature: {weatherData.temperature}°C</p>
-          <p>Condition: {weatherData.description}</p>
-          <p>Max: {weatherData.maxTemperature}°C</p>
-          <p>Min: {weatherData.minTemperature}°C</p>
-        </div>
-      )}
-
-      {error && <p>Error: {error}</p>}
     </div>
   );
 }
