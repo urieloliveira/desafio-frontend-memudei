@@ -5,13 +5,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-
+import TempMaxMin from './TempMaxMin';
 
 
 function WeatherApp() {
   const [location, setLocation] = useState('');
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
+  const [isOpen, setOpen] = useState(true)
+
+
+
+  const handleOpen = (x) => {
+    setOpen(x);
+  };
 
   const apiKey = '4c5a79d32b5a97ddd95679b42c0f0528';
 
@@ -19,7 +26,9 @@ function WeatherApp() {
     axios
       .get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&lang=pt_br&appid=${apiKey}`)
       .then((response) => {
+
         const temperatureInCelsius = response.data.main.temp - 273.15;
+
 
         setWeatherData({
           name: response.data.name,
@@ -29,8 +38,13 @@ function WeatherApp() {
           maxTemperature: parseFloat((response.data.main.temp_max - 273.15).toFixed()), // Converter para número de ponto flutuante
           minTemperature: parseFloat((response.data.main.temp_min - 273.15).toFixed()), // Converter para número de ponto flutuante
           description: response.data.weather[0].description,
-          feels: parseFloat((response.data.main.feels_like - 273.15).toFixed())
+          feels: parseFloat((response.data.main.feels_like - 273.15).toFixed()),
+          wind: parseFloat((response.data.wind.speed * 3.6).toFixed()),
+          humidity: response.data.main.humidity
         });
+
+
+
         setError(null);
       })
       .catch((error) => {
@@ -43,27 +57,40 @@ function WeatherApp() {
 
   return (
     <div>
-      {weatherData && (
-        <div className='flex flex-col bg-red-50 text-black w-full shadow-inner overflow-hidden mb-10 '>
+      {isOpen && weatherData && (
+
+        <div className='flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-10  '>
           <div className='flex justify-between  mt-3 text-1xl font-semibold '>
             <div className='flex px-10'>
               <span>{weatherData.name},</span> <span>{weatherData.country}</span>
             </div>
             <div className='mr-4 text-2xl text-[#ff7f00] leading-tight'>
-              <button>
+              <button
+                onClick={() => handleOpen(false)}
+              >
                 <FontAwesomeIcon icon={faClose} />
               </button>
             </div>
           </div>
-          <div className='flex justify-around items-center text-4xl font-bold capitalize mt-6'>
+          <div className='flex justify-around items-center text-4xl font-semibold capitalize mt-6 text-start'>
             <p>{weatherData.temperature}°C</p>
             <p>{weatherData.description}</p>
           </div>
-          <div className='flex  mt-6'>
-            <p ><FontAwesomeIcon className='text-[#ff7f00]' icon={faArrowDown} />{weatherData.minTemperature}°C</p>
-            <p><FontAwesomeIcon className='text-[#ff7f00]' icon={faArrowUp} />{weatherData.maxTemperature}°C</p>
+          <div className='flex justify-between mt-6 px-10'>
+            <div className='flex justify-between  '>
+              <p className='mr-4 font-semibold'><FontAwesomeIcon className='text-[#ff7f00] mr-1' icon={faArrowDown} />{weatherData.minTemperature}°C</p>
+              <p className='font-semibold'><FontAwesomeIcon className='text-[#ff7f00] mr-1' icon={faArrowUp} />{weatherData.maxTemperature}°C</p>
+            </div>
             <div>
-              <p>Sensação: {weatherData.feels}°</p>
+              <span className='text-start font-thin text-gray-600'>Sensação <span className='font-semibold text-black'>{weatherData.feels}°</span></span>
+            </div>
+          </div>
+          <div className='flex justify-between mt-6 px-10'>
+            <div className='flex justify-between  '>
+              <p className='text-start font-thin text-gray-600'>Vento <span className='font-semibold'>{weatherData.wind} km/h</span></p>
+            </div>
+            <div className='mb-3'>
+              <span className='text-start font-thin text-gray-600'>Humidade <span className='font-semibold text-black'>{weatherData.humidity}°</span></span>
             </div>
           </div>
         </div>
@@ -76,6 +103,7 @@ function WeatherApp() {
         onSubmit={(e) => {
           e.preventDefault();
           getWeather();
+          setOpen(true)
         }}
       >
         <MeuInput

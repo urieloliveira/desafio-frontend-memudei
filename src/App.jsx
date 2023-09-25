@@ -1,5 +1,6 @@
 import './App.css'
 import WeatherSearch from './Components/WeatherSearch'
+import Capitais from './Components/Capitais'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <h1 className='text-white text-6xl text-start font-semibold px-6'>Previsão do tempo</h1>
       </div>
       <WeatherSearch></WeatherSearch>
+      <Capitais></Capitais>
     </div>
     </>
   )
