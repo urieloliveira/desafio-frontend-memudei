@@ -39,7 +39,7 @@ function WeatherApp() {
       .then((response) => {
 
         if (response.data.list && response.data.list.length >= 4) {
-          const forecastData = response.data.list.slice(0, 4).map((item) => ({
+          const forecastData = response.data.list.slice(1, 5).map((item) => ({
             date: item.dt_txt,
             temperature: item.main.temp,
             maxTemperature: parseFloat(
@@ -120,9 +120,9 @@ function WeatherApp() {
               </button>
             </div>
           </div>
-          <div className="flex justify-around items-center text-4xl font-semibold capitalize mt-6 text-start">
-            <p>{weatherData.temperature}°C</p>
-            <p>{weatherData.description}</p>
+          <div className="flex justify-between items-center text-3xl font-semibold capitalize mt-6 text-start">
+            <p className="px-10">{weatherData.temperature}°C</p>
+            <p className="px-10">{weatherData.description}</p>
           </div>
           <div className="flex justify-between mt-6 px-10">
             <div className="flex justify-between  ">
@@ -159,7 +159,7 @@ function WeatherApp() {
                 </span>
               </p>
             </div>
-            <div className="mb-3">
+            <div className="mb-5">
               <span className="text-start font-thin text-gray-600">
                 Humidade{" "}
                 <span className="font-semibold text-black">
@@ -172,7 +172,7 @@ function WeatherApp() {
       )}
       {forecast && isOpen && (
         <div>
-          <ul className="flex justify-between px-10 bg-red-50 py-10">
+          <ul className="flex justify-between px-10 bg-red-50 py-8">
             {forecast.map((item, index) => (
               <li key={index}>
                 <p>{getDayOfWeek(item.date)}</p>
