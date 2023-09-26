@@ -131,3 +131,27 @@ strong {
 .down-side {
     padding: 2em 0;
 }
+
+.down-side__titulo {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.capitais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+}
+
+.capital {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.capitais__right {
+    margin-top: 3em;
+}
