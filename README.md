@@ -1,9 +1,6 @@
 # Aplicativo de Previsão do Tempo
 
 Este é um aplicativo de previsão do tempo construído com React, Vite, Tailwind CSS, a API OpenWeatherMap, ESlint e FontAwesome Icons.
-
-![Preview](link_para_uma_imagem_do_aplicativo)
-
 ## Descrição
 
 Este aplicativo permite aos usuários obter informações atualizadas sobre o tempo em qualquer localidade do mundo. Ele utiliza a API OpenWeatherMap para buscar os dados meteorológicos e exibi-los de forma amigável e intuitiva para o usuário.
