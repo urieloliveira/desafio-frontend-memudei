@@ -109,7 +109,7 @@ function WeatherApp() {
     <div>
       {isOpen && weatherData && (
         <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5">
-          <div className="flex justify-between  mt-3 text-1xl font-semibold ">
+          <div className="flex justify-between mt-3 text-1xl font-semibold ">
             <div className="flex px-10">
               <span>{weatherData.name},</span>{" "}
               <span>{weatherData.country}</span>
@@ -120,70 +120,75 @@ function WeatherApp() {
               </button>
             </div>
           </div>
-          <div className="flex justify-between items-center text-3xl font-semibold capitalize mt-6 text-start">
-            <p className="px-10">{weatherData.temperature}°C</p>
-            <p className="px-10">{weatherData.description}</p>
-          </div>
-          <div className="flex justify-between mt-6 px-10">
-            <div className="flex justify-between  ">
-              <p className="mr-4 font-semibold">
-                <FontAwesomeIcon
-                  className="text-[#ff7f00] mr-1"
-                  icon={faArrowDown}
-                />
-                {weatherData.minTemperature}°C
-              </p>
-              <p className="font-semibold">
-                <FontAwesomeIcon
-                  className="text-[#ff7f00] mr-1"
-                  icon={faArrowUp}
-                />
-                {weatherData.maxTemperature}°C
-              </p>
+          <div></div>
+          <div className="flex justify-around mb-4">
+            <div className="flex flex-col  justify-between  font-semibold capitalize mt-6 text-start">
+              <p className=" text-4xl text-left font-bold">{weatherData.temperature}°C</p>
+              <div className="flex justify-between  ">
+                <p className="mr-4 ">
+                  <FontAwesomeIcon
+                    className="text-[#ff7f00] mr-1"
+                    icon={faArrowDown}
+                  />
+                  {weatherData.minTemperature}°C
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    className="text-[#ff7f00] mr-1"
+                    icon={faArrowUp}
+                  />
+                  {weatherData.maxTemperature}°C
+                </p>
+              </div>
+              <div className="flex justify-between  ">
+                <p className="text-start font-thin text-gray-600">
+                  Vento{" "}
+                  <span className="font-semibold text-black">
+                    {weatherData.wind} km/h
+                  </span>
+                </p>
+              </div>
             </div>
-            <div>
-              <span className="text-start font-thin text-gray-600">
-                Sensação{" "}
-                <span className="font-semibold text-black">
-                  {weatherData.feels}°
+            <div className="flex flex-col  justify-between  font-semibold capitalize mt-6 text-start">
+              <p className="text-4xl whitespace-pre-line w-36 font-bold">{weatherData.description}</p>
+              <div className="mt-4">
+                <span className="text-start font-thin text-gray-600 ">
+                  Sensação{" "}
+                  <span className="font-semibold text-black">
+                    {weatherData.feels}°
+                  </span>
                 </span>
-              </span>
-            </div>
-          </div>
-          <div className="flex justify-between mt-6 px-10">
-            <div className="flex justify-between  ">
-              <p className="text-start font-thin text-gray-600">
-                Vento{" "}
-                <span className="font-semibold text-black">
-                  {weatherData.wind} km/h
+              </div>
+              <div className="mt-4">
+                <span className="text-start font-thin text-gray-600">
+                  Humidade{" "}
+                  <span className="font-semibold text-black">
+                    {weatherData.humidity}°
+                  </span>
                 </span>
-              </p>
-            </div>
-            <div className="mb-5">
-              <span className="text-start font-thin text-gray-600">
-                Humidade{" "}
-                <span className="font-semibold text-black">
-                  {weatherData.humidity}°
-                </span>
-              </span>
+              </div>
             </div>
           </div>
         </div>
       )}
       {forecast && isOpen && (
         <div>
-          <ul className="flex justify-between px-6 bg-red-50 py-8">
+          <ul className="flex justify-between px-6 bg-red-50 py-4">
             {getNextFourDays().map((day, index) => (
               <li key={index}>
-                <p className="px-2 text-1xl text-black font-bold">{day}</p>
+                <p className="px-2 text-lg text-black text-center font-bold">{day}</p>
                 <div>
                   <ul>
                     {forecast
                       .slice(index, index + 1)
                       .map((item, forecastIndex) => (
                         <li className="flex" key={forecastIndex}>
-                          <p className="px-2 font-bold text-[#ff7f00]">{item.maxTemperature}°</p>
-                          <p className="font-bold text-[#ff7f00]">{item.minTemperature}°</p>
+                          <p className="px-2 font-bold text-[#ff7f00]">
+                            {item.maxTemperature}°
+                          </p>
+                          <p className="font-bold text-[#ff7f00]">
+                            {item.minTemperature}°
+                          </p>
                         </li>
                       ))}
                   </ul>
