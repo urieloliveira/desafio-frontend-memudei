@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-image: linear-gradient(#ff7f00, #ffba00);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  list-style-type:none;
+}
+
+
+
+
+
+
+
+
