@@ -79,6 +79,11 @@ input::placeholder {
   font-weight: 300;
 }
 
+.home-capitais-header-letf p,
+.home-capitais-header-right p {
+margin-bottom: 0;
+}
+
 .home-capitais-header-right {
   display: none;
 }
@@ -94,7 +99,7 @@ input::placeholder {
 }
 
 .capital p {
-  margin-bottom: 9px;
+  margin: 10px 0;
 }
 
 @media (min-width: 576px) {
