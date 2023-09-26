@@ -106,9 +106,9 @@ function WeatherApp() {
   };
 
   return (
-    <div>
+    <div className="md:w-1/2" >
       {isOpen && weatherData && (
-        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5">
+        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5 ">
           <div className="flex justify-between mt-3 text-1xl font-semibold ">
             <div className="flex px-10">
               <span>{weatherData.name},</span>{" "}
@@ -163,7 +163,7 @@ function WeatherApp() {
                 <span className="text-start font-thin text-gray-600">
                   Humidade{" "}
                   <span className="font-semibold text-black">
-                    {weatherData.humidity}°
+                    {weatherData.humidity}%
                   </span>
                 </span>
               </div>
@@ -171,8 +171,8 @@ function WeatherApp() {
           </div>
         </div>
       )}
-      {forecast && isOpen && (
-        <div>
+      {forecast && isOpen && weatherData &&  (
+        <div className="shadow-inner">
           <ul className="flex justify-between px-6 bg-red-50 py-4">
             {getNextFourDays().map((day, index) => (
               <li key={index}>
@@ -199,7 +199,7 @@ function WeatherApp() {
         </div>
       )}
 
-      {error && <p>Error: {error}</p>}
+      {error && <p className="text-center text-white text-2xl">Error: {error}</p>}
 
       <form
         action=""

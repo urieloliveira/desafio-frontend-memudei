@@ -3,9 +3,9 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const MeuInput = ({ placeholder, value, onChange }) => {
   return (
-    <div className="relative px-4 mt-5">
+    <div className="relative px-4 md:px-0 mt-6">
       <input
-        className='bg-white border border-stone-600 text-black px-4 py-2 w-full text-base'
+        className='bg-white  text-black px-4 py-2 w-full text-base'
         type="text"
         placeholder={placeholder}
         value={value}

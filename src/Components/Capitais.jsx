@@ -68,24 +68,41 @@ function Capitais() {
   }, []);
 
   return (
-    <div className="px-10 mt-10 border-t-2 border-t-[#ffe7c7]  border-solid">
-      {error && <p>Error: {error}</p>}
-      <h1 className="text-white text-start text-5xl mb-5 mt-5 mr-2 font-semibold">Capitais</h1>
-      <ul>
-        <div className="flex justify-between w-24 font-extralight">
-          <li>Min</li>
-          <li>Máx</li>
-        </div>
-        {citiesData.map((city) => (
-          <TempMaxMin
-            key={city.cityName}
-            city={city.cityName}
-            minTemperature={city.minTemperature}
-            maxTemperature={city.maxTemperature}
-          ></TempMaxMin>
-        ))}
-      </ul>
+    <div className="px-10 md:px-64 mt-10 border-t-2 border-[#ffe7c7] border-solid">
+  {error && <p>Error: {error}</p>}
+  <h1 className="text-white text-start text-5xl mb-5 mt-5 mr-2 font-semibold">Capitais</h1>
+  <div className="md:grid md:grid-cols-2 md:gap-48">
+    <div>
+      <div className="flex justify-between w-24 font-extralight">
+        <li>Min</li>
+        <li>Máx</li>
+      </div>
+      {citiesData.slice(0, 12).map((city) => (
+        <TempMaxMin
+          key={city.cityName}
+          city={city.cityName}
+          minTemperature={city.minTemperature}
+          maxTemperature={city.maxTemperature}
+        ></TempMaxMin>
+      ))}
     </div>
+    <div>
+    <div className="flex justify-between w-24  font-extralight">
+        <li>Min</li>
+        <li>Máx</li>
+      </div>
+      {citiesData.slice(12, 24).map((city) => (
+        <TempMaxMin
+          key={city.cityName}
+          city={city.cityName}
+          minTemperature={city.minTemperature}
+          maxTemperature={city.maxTemperature}
+        ></TempMaxMin>
+      ))}
+    </div>
+  </div>
+</div>
+
   );
 }
 

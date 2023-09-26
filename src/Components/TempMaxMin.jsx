@@ -1,6 +1,6 @@
 function TempMaxMin({ minTemperature, maxTemperature, city }) {
   return (
-    <div className="flex mt-4 space-x-10 w-48">
+    <div className="flex mt-4 space-x-10 w-48 ">
       <div className="flex-1">
         <p className="font-bold">{minTemperature}°</p>
       </div>

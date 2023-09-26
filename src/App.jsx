@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-    <div className="flex flex-col  h-screen">
-      <div className='m-8 '>
-      <h1 className='text-white text-6xl text-left font-semibold px-5'>Previsão do tempo</h1>
+    <div className="flex flex-col  h-screen md:flex md:items-center md:jutify-center">
+      <div className='m-8'>
+      <h1 className='text-white text-6xl text-left font-semibold px-5 md:text-center'>Previsão do tempo</h1>
       </div>
       <WeatherSearch></WeatherSearch>
       <Capitais></Capitais>
