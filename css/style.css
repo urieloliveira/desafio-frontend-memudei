@@ -5,7 +5,11 @@ body {
     background: rgb(255,126,47);
     background: linear-gradient(180deg, rgba(255,126,47,1) 7%, rgba(237,200,51,1) 100%);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
+    padding: 5em 0;
+}
+
+.container {
     display: grid;
     place-items: center;
 }
@@ -122,4 +126,8 @@ strong {
 
 .input-container button:hover {
     cursor: pointer;
+}
+
+.down-side {
+    padding: 2em 0;
 }
