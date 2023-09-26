@@ -13,10 +13,8 @@ function WeatherApp() {
   const [isOpen, setOpen] = useState(true);
   const [forecast, setForecast] = useState(null);
 
-  const getDayOfWeek = (dt_txt) => {
-    const date = new Date(dt_txt);
-    console.log(date)
-    const dayOfWeek = date.getDay();
+  const getNextFourDays = () => {
+    const date = new Date();
     const daysOfWeek = [
       "Domingo",
       "Segunda",
@@ -26,28 +24,30 @@ function WeatherApp() {
       "Sexta",
       "Sábado",
     ];
-    return daysOfWeek[dayOfWeek];
+    const nextFourDays = [];
+
+    for (let i = 1; i <= 4; i++) {
+      const nextDay = new Date(date);
+      nextDay.setDate(date.getDate() + i);
+      const dayOfWeekIndex = nextDay.getDay();
+      nextFourDays.push(daysOfWeek[dayOfWeekIndex]);
+    }
+
+    return nextFourDays;
   };
 
   const getForecast = () => {
-
-    
     axios
       .get(
         `https://api.openweathermap.org/data/2.5/forecast?q=${location}&lang=pt_br&appid=${apiKey}`
       )
       .then((response) => {
-
         if (response.data.list && response.data.list.length >= 4) {
           const forecastData = response.data.list.slice(1, 5).map((item) => ({
             date: item.dt_txt,
             temperature: item.main.temp,
-            maxTemperature: parseFloat(
-              (item.main.temp_max - 273.15).toFixed()
-            ), 
-            minTemperature: parseFloat(
-              (item.main.temp_min - 273.15).toFixed()
-            ), 
+            maxTemperature: parseFloat((item.main.temp_max - 273.15).toFixed()),
+            minTemperature: parseFloat((item.main.temp_min - 273.15).toFixed()),
             description: item.weather[0].description,
           }));
           setForecast(forecastData);
@@ -86,10 +86,10 @@ function WeatherApp() {
           temperature: parseFloat(temperatureInCelsius.toFixed()), // Converter para número de ponto flutuante
           maxTemperature: parseFloat(
             (response.data.main.temp_max - 273.15).toFixed()
-          ), 
+          ),
           minTemperature: parseFloat(
             (response.data.main.temp_min - 273.15).toFixed()
-          ), 
+          ),
           description: response.data.weather[0].description,
           feels: parseFloat((response.data.main.feels_like - 273.15).toFixed()),
           wind: parseFloat((response.data.wind.speed * 3.6).toFixed()),
@@ -108,7 +108,7 @@ function WeatherApp() {
   return (
     <div>
       {isOpen && weatherData && (
-        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-10">
+        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5">
           <div className="flex justify-between  mt-3 text-1xl font-semibold ">
             <div className="flex px-10">
               <span>{weatherData.name},</span>{" "}
@@ -172,16 +172,22 @@ function WeatherApp() {
       )}
       {forecast && isOpen && (
         <div>
-          <ul className="flex justify-between px-10 bg-red-50 py-8">
-            {forecast.map((item, index) => (
+          <ul className="flex justify-between px-6 bg-red-50 py-8">
+            {getNextFourDays().map((day, index) => (
               <li key={index}>
-                <p>{getDayOfWeek(item.date)}</p>
-                <p>
-                  {item.maxTemperature}°C
-                </p>
-                <p>
-                  {item.minTemperature}°C
-                </p>
+                <p className="px-2 text-1xl text-black font-bold">{day}</p>
+                <div>
+                  <ul>
+                    {forecast
+                      .slice(index, index + 1)
+                      .map((item, forecastIndex) => (
+                        <li className="flex" key={forecastIndex}>
+                          <p className="px-2 font-bold text-[#ff7f00]">{item.maxTemperature}°</p>
+                          <p className="font-bold text-[#ff7f00]">{item.minTemperature}°</p>
+                        </li>
+                      ))}
+                  </ul>
+                </div>
               </li>
             ))}
           </ul>
