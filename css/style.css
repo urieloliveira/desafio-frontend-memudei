@@ -9,3 +9,118 @@ body {
     display: grid;
     place-items: center;
 }
+
+.up-side {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0 5em 3em 5em;
+}
+
+.titulo {
+    color: #FFFFFF;
+    font-size: 38px;
+    margin-bottom: 1em;
+}
+
+.card {
+    background-color: #ffeee3;
+    padding: 16px;
+    box-shadow: 10px 10px 150px -45px rgba(0,0,0,0.75);
+    margin-bottom: 32px;
+    display: none;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid rgba(255,126,47,1);
+    padding: 5px;
+}
+
+.cidade {
+    grid-column: span 2;
+}
+
+.tempo {
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(85, 85, 85);
+    margin: 20px 0;
+    grid-column: span 2;
+}
+
+.min-max i{
+    color: rgba(255,126,47,1);
+}
+
+.min-max strong {
+    color: black;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+strong {
+    font-weight: 500;
+    color: black;
+}
+
+.texto {
+    font-weight: 300;
+    color: rgb(124, 124, 124);
+    margin-bottom: 10px;
+}
+
+.semana {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dia h4 {
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.dia__min-max {
+    color: rgba(255,126,47,1);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+}
+
+.input-container button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;    
+}
+
+.input-container button i {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.input-container button:hover {
+    cursor: pointer;
+}
