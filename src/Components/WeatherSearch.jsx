@@ -13,6 +13,8 @@ function WeatherApp() {
   const [isOpen, setOpen] = useState(true);
   const [forecast, setForecast] = useState(null);
 
+  const apiKey = "4c5a79d32b5a97ddd95679b42c0f0528";
+
   const getNextFourDays = () => {
     const date = new Date();
     const daysOfWeek = [
@@ -69,7 +71,7 @@ function WeatherApp() {
     setOpen(toggle);
   };
 
-  const apiKey = "4c5a79d32b5a97ddd95679b42c0f0528";
+  
 
   const getWeather = () => {
     axios
@@ -108,7 +110,7 @@ function WeatherApp() {
   return (
     <div className="md:w-1/2" >
       {isOpen && weatherData && (
-        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5 ">
+        <div className="flex flex-col bg-red-50 text-black w-full inset shadow-lg overflow-hidden mb-0.5 md:mb-0 md:border-b-[#f7af68] md:border-b md:border-solid">
           <div className="flex justify-between mt-3 text-1xl font-semibold ">
             <div className="flex px-10">
               <span>{weatherData.name},</span>{" "}

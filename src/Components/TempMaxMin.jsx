@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 function TempMaxMin({ minTemperature, maxTemperature, city }) {
   return (
     <div className="flex mt-4 space-x-10 w-48 ">
