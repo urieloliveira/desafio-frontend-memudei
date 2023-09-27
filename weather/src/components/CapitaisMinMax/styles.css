@@ -2,6 +2,7 @@
   margin: 0 40px;
   display: flex;
   flex-direction: column;
+  max-width: 425px;
 }
 
 .home-capitais h1 {
