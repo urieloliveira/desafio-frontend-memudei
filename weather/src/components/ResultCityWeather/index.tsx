@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { CityWeather } from "models/models";
+import ImageLoader from "components/ImageLoader";
 
 import "./styles.css";
 
@@ -22,14 +23,19 @@ const ResultCityWeather = ({
   isLoaded,
   onRemove,
 }: Props) => {
-
   if (!isVisible) {
     return null;
   }
 
   return (
     <>
-      {cityWeather && (
+      {isLoaded ? (
+        <div className="result-weather-container">
+          <div className="after-loader-container">
+            <ImageLoader />
+          </div>
+        </div>
+      ) : (
         <div className="result-weather-container">
           <div className="city-result-weather-header">
             <p>{cityWeather.city.name}, RJ - Brasil </p>

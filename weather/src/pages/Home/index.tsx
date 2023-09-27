@@ -18,6 +18,7 @@ const Home = () => {
     city: "",
   });
   const [isLoading, setIsLoading] = useState(false);
+
   const [cityWeather, setCityWeather] = useState<CityWeather>();
   const [isVisible, setVisible] = useState<boolean>(true);
 
@@ -33,11 +34,11 @@ const Home = () => {
 
   const handleSubmit = (event: React.MouseEvent<HTMLDivElement>) => {
     setIsLoading(true);
+    setVisible(true);
     getWeatherByCity(formData.city)
       .then((data) => {
         setCityWeather(data);
-        setFormData({ city: '' });
-        
+        setFormData({ city: "" });
       })
       .finally(() => {
         setIsLoading(false);
@@ -78,7 +79,7 @@ const Home = () => {
         <div className="line"></div>
       </div>
 
-      {/* <CapitaisMinMax /> */}
+      <CapitaisMinMax />
     </div>
   );
 };
