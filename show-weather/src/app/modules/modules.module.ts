@@ -4,8 +4,6 @@ import { HomePageComponent } from './home/pages/home-page/home-page.component';
 import { CitySectionComponent } from './home/components/city-section/city-section.component';
 import { CityDetailsSectionComponent } from './home/components/city-details-section/city-details-section.component';
 
-
-
 @NgModule({
   declarations: [
     HomePageComponent,
@@ -13,7 +11,7 @@ import { CityDetailsSectionComponent } from './home/components/city-details-sect
     CityDetailsSectionComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class ModulesModule { }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ICapitalDataResponse } from '../../pages/home-page/home-page.component';
 
 @Component({
   selector: 'app-city-section',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./city-section.component.scss']
 })
 export class CitySectionComponent {
+  @Input() city!: ICapitalDataResponse;
 
+  constructor() { }
 }

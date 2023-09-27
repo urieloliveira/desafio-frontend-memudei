@@ -20,9 +20,19 @@ export class WeatherService {
 
     return (this.http.get<any>(_url).pipe(
       map(
-        res => res
+        res => {
+          res.main['fels_like'] = this.kelvinToCeusius(res.main['fels_like']);
+          res.main['temp'] = this.kelvinToCeusius(res.main['temp']);
+          res.main['temp_max'] = this.kelvinToCeusius(res.main['temp_max']);
+          res.main['temp_min'] = this.kelvinToCeusius(res.main['temp_min']);
+          return res;
+        }
       )
     )
     )
+  }
+
+  public kelvinToCeusius(temp: number) {
+    return (temp - 273.15);
   }
 }

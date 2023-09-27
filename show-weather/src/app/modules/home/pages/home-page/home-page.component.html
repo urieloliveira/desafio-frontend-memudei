@@ -1,1 +1,26 @@
-<button (click)="onApiCall()">home-page works!</button>
+<div class="col-12 d-flex align-items-center justify-content-center ">
+    <div class="col-12 col-sm-8 col align-items-center justify-content-center">
+        <div class="col-12 my-3 px-3">
+            <h1 class="text-center my-4 mx-1 title">
+                Previsão do tempo
+            </h1>
+            <div class="search-container d-flex col-12 py-1 px-3 align-items-center justify-content-between ">
+                <!--input placeholder="Insira aqui o nome da cidade"-->
+                <!--Input para busca-->
+                <button (click)="onApiCall()">home-page works!</button>
+            </div>
+        </div>
+
+        <hr class="line" />
+        <div class="px-4 box-bottom">
+            <h1 class="text-left my-2">
+                Capitais
+            </h1>
+            <div class="col-12 row d-flex">
+                <div *ngFor="let capital of capitals" class="col-12 col-sm-6 col-lg-4 row d-flex">
+                    <app-city-section [city]="capital" class="col-12"></app-city-section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
