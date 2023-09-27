@@ -76,8 +76,6 @@ export async function getWeatherByCity(city: string): Promise<CityWeather> {
       }));
     }
 
-    console.log(forecast);
-
     if (currentWeatherResponse.status === 200) {
       const currentWeatherdata = currentWeatherResponse.data;
 
@@ -94,7 +92,9 @@ export async function getWeatherByCity(city: string): Promise<CityWeather> {
 
       weather_res = {
         id: currentWeatherdata.weather[0].id,
-        description: currentWeatherdata.weather[0].description,
+        description:
+          currentWeatherdata.weather[0].description.charAt(0).toUpperCase() +
+          currentWeatherdata.weather[0].description.slice(1),
         icon: currentWeatherdata.weather[0].icon,
         temp: Math.round(parseFloat(currentWeatherdata.main.temp)),
         minTemp: Math.round(parseFloat(currentWeatherdata.main.temp_min)),
@@ -112,8 +112,6 @@ export async function getWeatherByCity(city: string): Promise<CityWeather> {
         city: city_res,
         weather: weather_res,
       };
-
-      console.log(cityWeather);
 
       return cityWeather;
     } else {

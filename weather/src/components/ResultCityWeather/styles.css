@@ -20,7 +20,7 @@
   font-size: 18px;
   margin: 0;
   align-self: center;
-  width: 210px;
+  min-width: 210px;
 }
 
 .city-result-weather-header button {
@@ -28,7 +28,7 @@
   color: #ff7f00;
   font-size: 18px;
   border: 0;
-  margin-right: -20px;
+  margin-right: -10px;
 }
 
 .city-result-weather {
@@ -177,67 +177,3 @@
   min-width: 230px; /* Defina a largura máxima do campo de entrada conforme necessário */
 }
 
-@media (min-width: 375px) {
-  .city-result-weather h1 {
-    font-size: 40px;
-    margin: 10px 0 0 0;
-    padding: 0;
-  }
-  .city-result-weather-header p {
-    width: 225px;
-  }
-  .city-result-weather-header button {
-    font-size: 20px;
-    margin-right: -25px;
-  }
-}
-
-@media (min-width: 407px) {
-  .city-result-weather-header p {
-    width: 240px;
-  }
-  .city-result-weather-header button {
-    font-size: 20px;
-    margin-right: -40px;
-  }
-}
-
-@media (min-width: 425px) {
-  .result-weather-container {
-    width: 440px;
-    padding: 0;
-  }
-
-  .city-result-weather {
-    width: 320px;
-    padding-left: 40px;
-  }
-
-  .city-result-weather h1 {
-    font-size: 40px;
-  }
-
-  .city-result-weather-header p {
-    width: 250px;
-  }
-  .home-result-weather-header button {
-    font-size: 20px;
-    margin-right: -40px;
-  }
-
-  .container {
-    width: 320px;
-    padding-left: 40px;
-  }
-
-  .forecast-temps-small {
-    display: flex;
-  }
-}
-
-@media (min-width: 567px) {
-  .result-weather-container {
-    width: 475px;
-    padding: 0;
-  }
-}

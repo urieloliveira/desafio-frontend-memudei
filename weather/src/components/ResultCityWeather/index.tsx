@@ -5,93 +5,98 @@ import {
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { CityWeather } from "models/models";
+
 import "./styles.css";
 
-const ResultCityWeather = () => {
-  return (
-    <div className="result-weather-container">
-      <div className="city-result-weather-header">
-        <p>Niterói, RJ - Brasil </p>
-        <button>
-          <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
-        </button>
-      </div>
-      <div className="city-result-weather">
-        <h1>20°C</h1>
-        <h1>Nublado</h1>
-      </div>
+type Props = {
+  cityWeather: CityWeather;
+  isVisible: boolean;
+  isLoaded: boolean;
+  onRemove: () => void;
+};
 
-      <div className="container">
-        <div className="coluna">
-          <div className="city-weather-esquerda">
-            <div className="weather-description">
-              <div className="result-weather">
-                <FontAwesomeIcon icon={faArrowDown}></FontAwesomeIcon>{" "}
-                <p>19°</p>
+const ResultCityWeather = ({
+  cityWeather,
+  isVisible,
+  isLoaded,
+  onRemove,
+}: Props) => {
+
+  if (!isVisible) {
+    return null;
+  }
+
+  return (
+    <>
+      {cityWeather && (
+        <div className="result-weather-container">
+          <div className="city-result-weather-header">
+            <p>{cityWeather.city.name}, RJ - Brasil </p>
+            <button onClick={onRemove}>
+              <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
+            </button>
+          </div>
+          <div className="city-result-weather">
+            <h1>{cityWeather.weather.temp}°</h1>
+            <h1>{cityWeather.weather.description}</h1>
+          </div>
+
+          <div className="container">
+            <div className="coluna">
+              <div className="city-weather-esquerda">
+                <div className="weather-description">
+                  <div className="result-weather">
+                    <FontAwesomeIcon icon={faArrowDown}></FontAwesomeIcon>{" "}
+                    <p>{cityWeather.weather.minTemp}</p>
+                  </div>
+                  <div className="result-weather">
+                    <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>{" "}
+                    <p>{cityWeather.weather.maxTemp}</p>
+                  </div>
+                </div>
+                <div className="weather-description">
+                  {" "}
+                  <span>Vento </span>
+                  <p>{cityWeather.weather.wind.speed} km/h</p>
+                </div>
               </div>
-              <div className="result-weather">
-                <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon> <p>19°</p>
+            </div>
+            <div className="coluna">
+              <div className="city-weather-direita">
+                <div className="weather-description">
+                  {" "}
+                  <span>Sensação </span>
+                  <p>{cityWeather.weather.feelsLike}</p>
+                </div>
+                <div className="weather-description">
+                  <span>Humidade </span>
+                  <p>{cityWeather.weather.humidity} %</p>
+                </div>
               </div>
             </div>
-            <div className="weather-description">
-              {" "}
-              <span>Vento </span>
-              <p>18km/h</p>
-            </div>
+          </div>
+          <div className="result-forecast-container">
+            {cityWeather.weather.forecast.map((forecastItem, index) => (
+              <div
+                className={`bottom-forecast ${
+                  index === cityWeather.weather.forecast.length - 1
+                    ? "forecast-temps-small"
+                    : ""
+                }`}
+                key={forecastItem.day}
+              >
+                <p>{forecastItem.day}</p>
+                <div className="forecast-temps">
+                  <span>{forecastItem.max}°</span>
+                  <span>{forecastItem.min}°</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="coluna">
-          <div className="city-weather-direita">
-            <div className="weather-description">
-              {" "}
-              <span>Sensação </span>
-              <p>19°</p>
-            </div>
-            <div className="weather-description">
-              <span>Humidade </span>
-              <p>89%</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="result-forecast-container">
-        <div className="bottom-forecast">
-          <p>Terça</p>
-          <div className="forecast-temps">
-            <span>18°</span>
-            <span>18°</span>
-          </div>
-        </div>
-        <div className="bottom-forecast">
-          <p>Domingo</p>
-          <div className="forecast-temps">
-            <span>18°</span>
-            <span>18°</span>
-          </div>
-        </div>
-        <div className="bottom-forecast">
-          <p>Sabado</p>
-          <div className="forecast-temps">
-            <span>18°</span>
-            <span>18°</span>
-          </div>
-        </div>
-        <div className="bottom-forecast">
-          <p>Segunda</p>
-          <div className="forecast-temps">
-            <span>18°</span>
-            <span>18°</span>
-          </div>
-        </div>
-        <div className="bottom-forecast forecast-temps-small ">
-          <p>Sexta</p>
-          <div className="forecast-temps ">
-            <span>18°</span>
-            <span>18°</span>
-          </div>
-        </div>
-      </div>
-    </div>
+      )}
+    </>
   );
 };
 

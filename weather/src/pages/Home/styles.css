@@ -61,12 +61,24 @@ input::placeholder {
   background-color: #ffbc79;
   margin: 20px 0;
 }
-
 @media (min-width: 375px) {
   .home-search-content h1 {
     font-size: 45px;
     padding: 0 60px;
     margin-bottom: 40px;
+  }
+
+  .city-result-weather h1 {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .city-result-weather-header p {
+    min-width: 225px;
+  }
+  .city-result-weather-header button {
+    font-size: 20px;
+    margin-right: -25px;
   }
 
   .search-input {
@@ -78,9 +90,46 @@ input::placeholder {
   }
 }
 
+@media (min-width: 407px) {
+  .city-result-weather-header p {
+    min-width: 240px;
+  }
+  .city-result-weather-header button {
+    font-size: 20px;
+    margin-right: -40px;
+  }
+}
+
 @media (min-width: 425px) {
   .home-search-content h1 {
     font-size: 45px;
+  }
+
+  .result-weather-container {
+    width: 440px;
+    padding: 0;
+  }
+
+  .city-result-weather {
+    width: 320px;
+    padding-left: 40px;
+  }
+
+  .city-result-weather h1 {
+    font-size: 40px;
+  }
+
+  .city-result-weather-header p {
+    min-width: 250px;
+  }
+  .city-result-weather-header button {
+    font-size: 20px;
+    margin-right: -40px;
+  }
+
+  .container {
+    width: 320px;
+    padding-left: 40px;
   }
 
   input::placeholder {
@@ -90,5 +139,15 @@ input::placeholder {
   .line {
     display: flex;
     width: 576px;
+  }
+  .forecast-temps-small {
+    display: flex;
+  }
+}
+
+@media (min-width: 567px) {
+  .result-weather-container {
+    width: 475px;
+    padding: 0;
   }
 }
