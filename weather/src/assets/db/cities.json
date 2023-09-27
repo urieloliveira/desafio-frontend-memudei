@@ -1,0 +1,7202 @@
+[
+    {
+      "country": "Brazil",
+      "geonameid": 3384986,
+      "name": "Vitória do Mearim",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3384987,
+      "name": "Vitória de Santo Antão",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385022,
+      "name": "Viseu",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385077,
+      "name": "Conde",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385088,
+      "name": "Vigia",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385106,
+      "name": "Viçosa do Ceará",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385109,
+      "name": "Viçosa",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385122,
+      "name": "Viana",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385467,
+      "name": "Várzea Alegre",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385504,
+      "name": "Varjota",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385538,
+      "name": "Vargem Grande",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385592,
+      "name": "Valença do Piauí",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385742,
+      "name": "União dos Palmares",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385745,
+      "name": "União",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385922,
+      "name": "Tuntum",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385935,
+      "name": "Tucuruí",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3385980,
+      "name": "Tucumã",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386042,
+      "name": "Trindade",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386177,
+      "name": "Trairi",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386264,
+      "name": "Toritama",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386279,
+      "name": "Tomé Açu",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386361,
+      "name": "Timon",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386372,
+      "name": "Timbiras",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386396,
+      "name": "Timbaúba",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386449,
+      "name": "Tianguá",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386496,
+      "name": "Teresina",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386567,
+      "name": "São João dos Inhamuns",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3386931,
+      "name": "Tamandaré",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387082,
+      "name": "Tabira",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387115,
+      "name": "Surubim",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387202,
+      "name": "Sousa",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387204,
+      "name": "Soure",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387266,
+      "name": "Solânea",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387296,
+      "name": "Sobral",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387604,
+      "name": "Sirinhaém",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387663,
+      "name": "Sertânia",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387786,
+      "name": "Serra Talhada",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387926,
+      "name": "Senador Pompeu",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3387987,
+      "name": "Satuba",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388145,
+      "name": "São Raimundo Nonato",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388269,
+      "name": "São Miguel dos Campos",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388270,
+      "name": "São Miguel do Guamá",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388318,
+      "name": "São Mateus do Maranhão",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388341,
+      "name": "São Luís do Quitunde",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388368,
+      "name": "São Luís",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388376,
+      "name": "São Lourenço da Mata",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388435,
+      "name": "São José do Egito",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388441,
+      "name": "São José de Ribamar",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388443,
+      "name": "São José de Mipibu",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388615,
+      "name": "São João dos Patos",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388714,
+      "name": "São Gonçalo do Amarante",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388847,
+      "name": "São Félix do Xingu",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388868,
+      "name": "São Domingos do Maranhão",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3388991,
+      "name": "São Bento",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389006,
+      "name": "São Bento",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389321,
+      "name": "Santa Rita",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389353,
+      "name": "Santarém",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389358,
+      "name": "Santa Quitéria do Maranhão",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389361,
+      "name": "Santa Quitéria",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389384,
+      "name": "Santana do Ipanema",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389557,
+      "name": "Santa Luzia",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389609,
+      "name": "Santa Inês",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389622,
+      "name": "Santa Helena",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389652,
+      "name": "Santa Cruz do Capibaribe",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389673,
+      "name": "Santa Cruz",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389822,
+      "name": "Salinópolis",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3389860,
+      "name": "Salgueiro",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390160,
+      "name": "Russas",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390288,
+      "name": "Rio Largo",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390295,
+      "name": "Rio Formoso",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390326,
+      "name": "Ribeirão",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390760,
+      "name": "Recife",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390901,
+      "name": "Quixeramobim",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3390907,
+      "name": "Quixadá",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391220,
+      "name": "Presidente Dutra",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391360,
+      "name": "Santana",
+      "subcountry": "Amapá"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391397,
+      "name": "Porto Calvo",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391412,
+      "name": "Portel",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391556,
+      "name": "Pombos",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391571,
+      "name": "Pombal",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391908,
+      "name": "Piripiri",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3391991,
+      "name": "Piracuruca",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392054,
+      "name": "Pinheiro",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392088,
+      "name": "Pindaré Mirim",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392126,
+      "name": "Pilar",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392167,
+      "name": "Picos",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392242,
+      "name": "Petrolina",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392243,
+      "name": "Jatobá",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392251,
+      "name": "Pesqueira",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392345,
+      "name": "Pentecoste",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392368,
+      "name": "Penalva",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392431,
+      "name": "Pedro II",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392629,
+      "name": "Pedra Branca",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392734,
+      "name": "Paulo Afonso",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392740,
+      "name": "Paulista",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392887,
+      "name": "Patos",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3392998,
+      "name": "Parnamirim",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393001,
+      "name": "Parnaíba",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393008,
+      "name": "Parintins",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393017,
+      "name": "Parelhas",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393091,
+      "name": "Paraipaba",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393106,
+      "name": "Paragominas",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393115,
+      "name": "Paracuru",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393264,
+      "name": "Palmares",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393400,
+      "name": "Pacatuba",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393409,
+      "name": "Pacajus",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393452,
+      "name": "Ouricuri",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393465,
+      "name": "Orós",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393471,
+      "name": "Oriximiná",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393536,
+      "name": "Olinda",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393764,
+      "name": "Oeiras",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393768,
+      "name": "Ábidos",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393832,
+      "name": "Nova Russas",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393876,
+      "name": "Nova Cruz",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3393972,
+      "name": "Nazaré da Mata",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394023,
+      "name": "Natal",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394116,
+      "name": "Murici",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394453,
+      "name": "Moreno",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394500,
+      "name": "Morada Nova",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394549,
+      "name": "Monteiro",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394605,
+      "name": "Monte Alegre",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394649,
+      "name": "Mombaça",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394661,
+      "name": "Moju",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394682,
+      "name": "Mossoró",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3394745,
+      "name": "Mocajuba",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395062,
+      "name": "Maués",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395077,
+      "name": "Matriz de Camaragibe",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395380,
+      "name": "Mari",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395395,
+      "name": "Marechal Deodoro",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395458,
+      "name": "Maragogi",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395473,
+      "name": "Maracanaú",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395503,
+      "name": "Marabá",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395717,
+      "name": "Mamanguape",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395981,
+      "name": "Maceió",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3395998,
+      "name": "Macau",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396016,
+      "name": "Macapá",
+      "subcountry": "Amapá"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396048,
+      "name": "Macaíba",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396266,
+      "name": "Limoeiro do Norte",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396277,
+      "name": "Limoeiro",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396364,
+      "name": "Lavras da Mangabeira",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396496,
+      "name": "Lajedo",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396601,
+      "name": "Lago da Pedra",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3396769,
+      "name": "Lagoa do Itaenga",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397147,
+      "name": "Juazeiro do Norte",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397230,
+      "name": "José de Freitas",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397277,
+      "name": "João Pessoa",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397315,
+      "name": "João Câmara",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397665,
+      "name": "Jaguaruana",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397675,
+      "name": "Jaguaribe",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397838,
+      "name": "Jaboatão",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397851,
+      "name": "Itupiranga",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397893,
+      "name": "Itacoatiara",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397898,
+      "name": "Itaporanga",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397904,
+      "name": "Itapissuma",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397909,
+      "name": "Itapipoca",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397936,
+      "name": "Itapecuru Mirim",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397941,
+      "name": "Itapagé",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397967,
+      "name": "Itaituba",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3397969,
+      "name": "Itaitinga",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398003,
+      "name": "Itabaiana",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398076,
+      "name": "Ipueiras",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398105,
+      "name": "Ipubi",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398112,
+      "name": "Ipu",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398115,
+      "name": "Ipojuca",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398269,
+      "name": "Imperatriz",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398331,
+      "name": "Iguatu",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398343,
+      "name": "Igarapé Miri",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398350,
+      "name": "Igarapé Açu",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398352,
+      "name": "Igarassu",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398379,
+      "name": "Icó",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398450,
+      "name": "Horizonte",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398569,
+      "name": "Guaraciaba do Norte",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398570,
+      "name": "Guarabira",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398614,
+      "name": "Guaiúba",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398691,
+      "name": "Gravatá",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398706,
+      "name": "Granja",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398856,
+      "name": "Grajaú",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398904,
+      "name": "Goiana",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3398920,
+      "name": "Glória do Goitá",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3399058,
+      "name": "Garanhuns",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3399132,
+      "name": "Gameleira",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3399415,
+      "name": "Fortaleza",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3399506,
+      "name": "Floriano",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3399518,
+      "name": "Floresta",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400558,
+      "name": "Eusébio",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400567,
+      "name": "Extremoz",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400617,
+      "name": "Estreito",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400740,
+      "name": "Esperantina",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400752,
+      "name": "Esperança",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400804,
+      "name": "Escada",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3400969,
+      "name": "Dom Pedro",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401106,
+      "name": "Demerval Lobão",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401109,
+      "name": "Delmiro Gouveia",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401138,
+      "name": "Custódia",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401148,
+      "name": "Cururupu",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401283,
+      "name": "Currais Novos",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401340,
+      "name": "Cupira",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401545,
+      "name": "Crato",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401548,
+      "name": "Crateús",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401703,
+      "name": "Coroatá",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401830,
+      "name": "Condado",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401845,
+      "name": "Conceição do Araguaia",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401963,
+      "name": "Colinas",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3401992,
+      "name": "Coelho Neto",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402000,
+      "name": "Codó",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402229,
+      "name": "Chapadinha",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402271,
+      "name": "Chã Grande",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402360,
+      "name": "Ceará Mirim",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402383,
+      "name": "Caxias",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402429,
+      "name": "Caucaia",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402465,
+      "name": "Catolé do Rocha",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402528,
+      "name": "Catende",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402591,
+      "name": "Castanhal",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402613,
+      "name": "Cascavel",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402655,
+      "name": "Caruaru",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402721,
+      "name": "Carpina",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3402724,
+      "name": "Carolina",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403127,
+      "name": "Capitão Poço",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403208,
+      "name": "Capanema",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403353,
+      "name": "Canindé",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403362,
+      "name": "Canguaretama",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403534,
+      "name": "Campos Sales",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403566,
+      "name": "Campo Maior",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403611,
+      "name": "Campo Alegre",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403642,
+      "name": "Campina Grande",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403687,
+      "name": "Camocim",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403697,
+      "name": "Cametá",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3403941,
+      "name": "Cajueiro",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404020,
+      "name": "Cajazeiras",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404117,
+      "name": "Caicó",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404513,
+      "name": "Cabrobó",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404545,
+      "name": "Cabo",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404558,
+      "name": "Cabedelo",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404722,
+      "name": "Buriti Bravo",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404766,
+      "name": "Buíque",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404817,
+      "name": "Breves",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404833,
+      "name": "Brejo Santo",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3404862,
+      "name": "Brejo da Madre de Deus",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405006,
+      "name": "Bragança",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405380,
+      "name": "Bom Conselho",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405616,
+      "name": "Boa Viagem",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405738,
+      "name": "Bezerros",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405792,
+      "name": "Benevides",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405812,
+      "name": "Belo Jardim",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405863,
+      "name": "Belém",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405870,
+      "name": "Belém",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405924,
+      "name": "Beberibe",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405940,
+      "name": "Bayeux",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3405954,
+      "name": "Baturité",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406160,
+      "name": "Barreiros",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406196,
+      "name": "Barreirinhas",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406263,
+      "name": "Barras",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406318,
+      "name": "Barra do Corda",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406429,
+      "name": "Barcarena",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406442,
+      "name": "Barbalha",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406545,
+      "name": "Balsas",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406910,
+      "name": "Bacabal",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406961,
+      "name": "Augusto Corrêa",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3406996,
+      "name": "Atalaia",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407194,
+      "name": "Areia Branca",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407216,
+      "name": "Arcoverde",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407243,
+      "name": "Araripina",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407258,
+      "name": "Arari",
+      "subcountry": "Maranhão"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407327,
+      "name": "Arapiraca",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407357,
+      "name": "Araguaína",
+      "subcountry": "Tocantins"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407378,
+      "name": "Aracati",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407407,
+      "name": "Aquiraz",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407440,
+      "name": "Apodi",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407669,
+      "name": "Ananindeua",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407758,
+      "name": "Amaraji",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407797,
+      "name": "Altos",
+      "subcountry": "Piauí"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407882,
+      "name": "Altamira",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407903,
+      "name": "Almeirim",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3407980,
+      "name": "Alenquer",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408100,
+      "name": "Alagoa Grande",
+      "subcountry": "Paraíba"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408166,
+      "name": "Águas Belas",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408175,
+      "name": "Água Preta",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408274,
+      "name": "Afogados da Ingazeira",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408337,
+      "name": "Açu",
+      "subcountry": "Rio Grande do Norte"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408343,
+      "name": "Acopiara",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408368,
+      "name": "Acaraú",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408404,
+      "name": "Abreu e Lima",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3408424,
+      "name": "Abaetetuba",
+      "subcountry": "Pará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444823,
+      "name": "Xique Xique",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444848,
+      "name": "Xanxerê",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444864,
+      "name": "Votuporanga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444866,
+      "name": "Votorantim",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444876,
+      "name": "Volta Redonda",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444914,
+      "name": "Vitória da Conquista",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444924,
+      "name": "Vitória",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444969,
+      "name": "Visconde do Rio Branco",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3444997,
+      "name": "Viradouro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445014,
+      "name": "Vinhedo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445026,
+      "name": "Vila Velha",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445126,
+      "name": "Videira",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445133,
+      "name": "Viçosa",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445153,
+      "name": "Viana",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445156,
+      "name": "Viamão",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445162,
+      "name": "Vespasiano",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445299,
+      "name": "Veranópolis",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445307,
+      "name": "Vera Cruz",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445348,
+      "name": "Wenceslau Braz",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445350,
+      "name": "Venâncio Aires",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445418,
+      "name": "Vazante",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445433,
+      "name": "Vassouras",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445446,
+      "name": "Várzea Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445451,
+      "name": "Várzea Grande",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445459,
+      "name": "Várzea da Palma",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445487,
+      "name": "Varginha",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445500,
+      "name": "Vargem Grande do Sul",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445575,
+      "name": "Valparaíso",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445578,
+      "name": "Valinhos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445596,
+      "name": "Valença",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445597,
+      "name": "Valença",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445630,
+      "name": "Vacaria",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445679,
+      "name": "Uruguaiana",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445690,
+      "name": "Uruçuca",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445713,
+      "name": "Uruaçu",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445746,
+      "name": "União da Vitória",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445764,
+      "name": "Unaí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445781,
+      "name": "Una",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445782,
+      "name": "Umuarama",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445831,
+      "name": "Uberlândia",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445839,
+      "name": "Uberaba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445847,
+      "name": "Ubatuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445849,
+      "name": "Ubatã",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445853,
+      "name": "Ubaitaba",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445859,
+      "name": "Ubá",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445939,
+      "name": "Tupanciretã",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445941,
+      "name": "Tupaciguara",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445942,
+      "name": "Tupã",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445983,
+      "name": "Tucano",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3445993,
+      "name": "Tubarão",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446038,
+      "name": "Trindade",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446065,
+      "name": "Três Rios",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446077,
+      "name": "Três Pontas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446087,
+      "name": "Três Passos",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446098,
+      "name": "Três Lagoas",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446130,
+      "name": "Três de Maio",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446137,
+      "name": "Três Coroas",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446138,
+      "name": "Três Corações",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446194,
+      "name": "Tremembé",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446232,
+      "name": "Tramandaí",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446295,
+      "name": "Torres",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446370,
+      "name": "Toledo",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446400,
+      "name": "Tobias Barreto",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446445,
+      "name": "Timóteo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446465,
+      "name": "Timbó",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446500,
+      "name": "Tijucas",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446539,
+      "name": "Tietê",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446556,
+      "name": "Teutônia",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446606,
+      "name": "Teresópolis",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446621,
+      "name": "Teófilo Otoni",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446625,
+      "name": "Teodoro Sampaio",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446652,
+      "name": "Telêmaco Borba",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446682,
+      "name": "Taubaté",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446692,
+      "name": "Tatuí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446752,
+      "name": "Taquarituba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446753,
+      "name": "Taquaritinga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446783,
+      "name": "Taquari",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446847,
+      "name": "Taquara",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446866,
+      "name": "Tapiramutá",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446880,
+      "name": "Tapes",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446974,
+      "name": "Tanguá",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3446979,
+      "name": "Tanabi",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447005,
+      "name": "Tambaú",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447059,
+      "name": "Taiobeiras",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447186,
+      "name": "Taboão da Serra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447212,
+      "name": "Suzano",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447259,
+      "name": "Sumaré",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447399,
+      "name": "Sorocaba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447423,
+      "name": "Soledade",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447437,
+      "name": "Socorro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447473,
+      "name": "Sobradinho",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447562,
+      "name": "Simão Dias",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447591,
+      "name": "Silva Jardim",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447597,
+      "name": "Sidrolândia",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447624,
+      "name": "Sete Lagoas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447651,
+      "name": "Sertãozinho",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447690,
+      "name": "Serrinha",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447718,
+      "name": "Serra Negra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447720,
+      "name": "Serrana",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447779,
+      "name": "Serra",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447785,
+      "name": "Seropédica",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447839,
+      "name": "Senhor do Bonfim",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447854,
+      "name": "Senador Canedo",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447928,
+      "name": "Seabra",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447929,
+      "name": "Schroeder",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447961,
+      "name": "Saubara",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447969,
+      "name": "Sarzedo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447997,
+      "name": "Sarandi",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3447998,
+      "name": "Sarandi",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448011,
+      "name": "Saquarema",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448031,
+      "name": "Sapucaia",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448063,
+      "name": "Sapiranga",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448136,
+      "name": "São Vicente",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448207,
+      "name": "São Sepé",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448219,
+      "name": "São Sebastião do Passé",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448221,
+      "name": "São Sebastião do Paraíso",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448227,
+      "name": "São Sebastião do Caí",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448257,
+      "name": "São Sebastião",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448300,
+      "name": "São Roque",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448351,
+      "name": "São Pedro da Aldeia",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448403,
+      "name": "São Pedro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448439,
+      "name": "São Paulo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448453,
+      "name": "São Miguel do Iguaçu",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448455,
+      "name": "São Miguel do Araguaia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448502,
+      "name": "São Mateus do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448519,
+      "name": "São Mateus",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448533,
+      "name": "São Marcos",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448545,
+      "name": "São Manuel",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448552,
+      "name": "São Luiz Gonzaga",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448558,
+      "name": "São Luís de Montes Belos",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448596,
+      "name": "São Lourenço do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448616,
+      "name": "São Lourenço",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448622,
+      "name": "São Leopoldo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448632,
+      "name": "São José dos Pinhais",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448636,
+      "name": "São José dos Campos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448639,
+      "name": "São José do Rio Preto",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448640,
+      "name": "São José do Rio Pardo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448742,
+      "name": "São José",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448825,
+      "name": "São Joaquim da Barra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448828,
+      "name": "São Joaquim",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448846,
+      "name": "São João Nepomuceno",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448877,
+      "name": "São João de Meriti",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448879,
+      "name": "São João del Rei",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448902,
+      "name": "São João da Boa Vista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3448903,
+      "name": "São João da Barra",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449045,
+      "name": "São Jerônimo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449053,
+      "name": "São Gotardo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449056,
+      "name": "São Gonçalo do Sapucaí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449099,
+      "name": "São Gabriel",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449112,
+      "name": "São Francisco do Sul",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449116,
+      "name": "São Francisco do Conde",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449176,
+      "name": "São Francisco",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449195,
+      "name": "São Fidélis",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449310,
+      "name": "São Cristóvão",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449319,
+      "name": "São Carlos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449324,
+      "name": "São Caetano do Sul",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449340,
+      "name": "São Borja",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449344,
+      "name": "São Bernardo do Campo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449350,
+      "name": "São Bento do Sul",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449427,
+      "name": "Santos Dumont",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449433,
+      "name": "Santos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449467,
+      "name": "Santo Estêvão",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449500,
+      "name": "Santo Antônio do Monte",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449516,
+      "name": "Santo Antônio do Amparo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449518,
+      "name": "Santo Antônio de Posse",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449519,
+      "name": "Santo Antônio de Pádua",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449521,
+      "name": "Santo Antônio de Jesus",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449529,
+      "name": "Santo Antônio da Platina",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449696,
+      "name": "Santo Ângelo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449701,
+      "name": "Santo André",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449707,
+      "name": "Santo Anastácio",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449711,
+      "name": "Santo Amaro da Imperatriz",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449720,
+      "name": "Santo Amaro",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449741,
+      "name": "Santiago",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449747,
+      "name": "Santa Vitória do Palmar",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449793,
+      "name": "Santa Rosa de Viterbo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449822,
+      "name": "Santa Rosa",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449847,
+      "name": "Santa Rita do Sapucaí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449851,
+      "name": "Santa Rita do Passa Quatro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449933,
+      "name": "Santana do Paraíso",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449936,
+      "name": "Santana do Livramento",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3449948,
+      "name": "Santana de Parnaíba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450063,
+      "name": "Santa Maria da Vitória",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450083,
+      "name": "Santa Maria",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450144,
+      "name": "Santa Luzia",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450157,
+      "name": "Santaluz",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450188,
+      "name": "Santa Isabel",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450206,
+      "name": "Santa Helena de Goiás",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450225,
+      "name": "Santa Gertrudes",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450232,
+      "name": "Santa Fé do Sul",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450269,
+      "name": "Santa Cruz do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450272,
+      "name": "Santa Cruz do Rio Pardo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450283,
+      "name": "Santa Cruz das Palmeiras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450288,
+      "name": "Santa Cruz Cabrália",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450376,
+      "name": "Santa Cecília",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450404,
+      "name": "Santa Bárbara d'Oeste",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450554,
+      "name": "Salvador",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450563,
+      "name": "Salto de Pirapora",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450594,
+      "name": "Salto",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450671,
+      "name": "Salinas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450759,
+      "name": "Sacramento",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450832,
+      "name": "Ruy Barbosa",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450843,
+      "name": "Rubiataba",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450873,
+      "name": "Rosário do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450909,
+      "name": "Rondonópolis",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450963,
+      "name": "Rolante",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3450964,
+      "name": "Rolândia",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451051,
+      "name": "Rio Verde de Mato Grosso",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451071,
+      "name": "Rio Real",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451102,
+      "name": "Rio Pardo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451121,
+      "name": "Rio Negro",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451124,
+      "name": "Rio Negrinho",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451134,
+      "name": "Rio Grande da Serra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451138,
+      "name": "Rio Grande",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451152,
+      "name": "Rio do Sul",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451190,
+      "name": "Rio de Janeiro",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451202,
+      "name": "Rio das Pedras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451205,
+      "name": "Rio das Ostras",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451234,
+      "name": "Rio Claro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451241,
+      "name": "Rio Brilhante",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451242,
+      "name": "Rio Branco do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451261,
+      "name": "Rio Bonito",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451328,
+      "name": "Ribeirão Preto",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451329,
+      "name": "Ribeirão Pires",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451353,
+      "name": "Ribeirão das Neves",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451357,
+      "name": "Ribeirão da Ilha",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451383,
+      "name": "Ribeira do Pombal",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451474,
+      "name": "Riachão do Jacuípe",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451650,
+      "name": "Resplendor",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451668,
+      "name": "Resende",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451704,
+      "name": "Registro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451709,
+      "name": "Regente Feijó",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451856,
+      "name": "Rancharia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3451931,
+      "name": "Quirinópolis",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452073,
+      "name": "Queimados",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452141,
+      "name": "Quatro Barras",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452179,
+      "name": "Quaraí",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452216,
+      "name": "Prudentópolis",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452233,
+      "name": "Propriá",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452237,
+      "name": "Promissão",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452320,
+      "name": "Presidente Venceslau",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452324,
+      "name": "Presidente Prudente",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452331,
+      "name": "Presidente Epitácio",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452440,
+      "name": "Prata",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452465,
+      "name": "Praia Grande",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452483,
+      "name": "Prado",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452525,
+      "name": "Pouso Alegre",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452599,
+      "name": "Posse",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452623,
+      "name": "Porto União",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452640,
+      "name": "Porto Seguro",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452775,
+      "name": "Porto Ferreira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452779,
+      "name": "Porto Feliz",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452925,
+      "name": "Porto Alegre",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3452982,
+      "name": "Portão",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453014,
+      "name": "Porangatu",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453060,
+      "name": "Pontes e Lacerda",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453078,
+      "name": "Ponte Nova",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453150,
+      "name": "Ponta Porã",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453171,
+      "name": "Pontal",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453186,
+      "name": "Ponta Grossa",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453240,
+      "name": "Pompéu",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453242,
+      "name": "Pompéia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453245,
+      "name": "Pomerode",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453303,
+      "name": "Poços de Caldas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453315,
+      "name": "Poconé",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453337,
+      "name": "Poções",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453406,
+      "name": "Poá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453420,
+      "name": "Planaltina",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453435,
+      "name": "Piúma",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453439,
+      "name": "Piuí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453457,
+      "name": "Pitangui",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453467,
+      "name": "Pitangueiras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453478,
+      "name": "Pitanga",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453494,
+      "name": "Piritiba",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453503,
+      "name": "Pires do Rio",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453535,
+      "name": "Piraquara",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453542,
+      "name": "Pirapozinho",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453546,
+      "name": "Pirapora",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453605,
+      "name": "Pirajuí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453610,
+      "name": "Piraju",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453622,
+      "name": "Piraí do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453635,
+      "name": "Piraí",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453639,
+      "name": "Pirassununga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453643,
+      "name": "Piracicaba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453659,
+      "name": "Piracanjuba",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453661,
+      "name": "Piracaia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453767,
+      "name": "Pinheiral",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453777,
+      "name": "Pinhão",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453807,
+      "name": "Espírito Santo do Pinhal",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453827,
+      "name": "Pindobaçu",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453837,
+      "name": "Pindamonhangaba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453896,
+      "name": "Pilar do Sul",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3453926,
+      "name": "Piedade",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454031,
+      "name": "Petrópolis",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454061,
+      "name": "Peruíbe",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454131,
+      "name": "Pereira Barreto",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454139,
+      "name": "Perdões",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454213,
+      "name": "Penha",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454231,
+      "name": "Penedo",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454235,
+      "name": "Penápolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454244,
+      "name": "Pelotas",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454358,
+      "name": "Pedro Leopoldo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454407,
+      "name": "Pedreira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454578,
+      "name": "Pedra Azul",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454620,
+      "name": "Pederneiras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454690,
+      "name": "Paulínia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454763,
+      "name": "Patrocínio",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454783,
+      "name": "Patos de Minas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454818,
+      "name": "Pato Branco",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454827,
+      "name": "Paty do Alferes",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454847,
+      "name": "Passos",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454857,
+      "name": "Passo Fundo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3454954,
+      "name": "Parobé",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455036,
+      "name": "Paraty",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455051,
+      "name": "Paranavaí",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455061,
+      "name": "Paranapanema",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455065,
+      "name": "Paranaíba",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455070,
+      "name": "Paranaguá",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455141,
+      "name": "Paraíba do Sul",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455152,
+      "name": "Paraguaçu Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455155,
+      "name": "Paraguaçu",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455161,
+      "name": "Pará de Minas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455168,
+      "name": "Paracatu",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455170,
+      "name": "Paracambi",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455281,
+      "name": "Panambi",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455298,
+      "name": "Palotina",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455342,
+      "name": "Palmital",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455416,
+      "name": "Palmeira das Missões",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455425,
+      "name": "Palmeira",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455459,
+      "name": "Palmas",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455478,
+      "name": "Palhoça",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455553,
+      "name": "Paiçandu",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455580,
+      "name": "Padre Bernardo",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455671,
+      "name": "Ouro Preto",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455689,
+      "name": "Ouro Branco",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455729,
+      "name": "Ourinhos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455756,
+      "name": "Osvaldo Cruz",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455769,
+      "name": "Osório",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455775,
+      "name": "Osasco",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455784,
+      "name": "Orleans",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455785,
+      "name": "Orlândia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455908,
+      "name": "Oliveira",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3455923,
+      "name": "Olímpia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456060,
+      "name": "Novo Horizonte",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456068,
+      "name": "Novo Hamburgo",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456102,
+      "name": "Nova Viçosa",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456110,
+      "name": "Nova Venécia",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456125,
+      "name": "Nova Prata",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456127,
+      "name": "Nova Petrópolis",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456137,
+      "name": "Nova Olímpia",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456138,
+      "name": "Nova Odessa",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456147,
+      "name": "Nova Lima",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456160,
+      "name": "Nova Iguaçu",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456164,
+      "name": "Nova Granada",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456166,
+      "name": "Nova Friburgo",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456176,
+      "name": "Nova Era",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456223,
+      "name": "Nossa Senhora do Socorro",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456240,
+      "name": "Nossa Senhora da Glória",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456283,
+      "name": "Niterói",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456285,
+      "name": "Niquelândia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456290,
+      "name": "Nilópolis",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456322,
+      "name": "Nerópolis",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456324,
+      "name": "Nepomuceno",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456366,
+      "name": "Nazaré",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456368,
+      "name": "Naviraí",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456370,
+      "name": "Navegantes",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456398,
+      "name": "Nanuque",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456412,
+      "name": "Muzambinho",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456483,
+      "name": "Muritiba",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456500,
+      "name": "Muriaé",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456593,
+      "name": "Mucuri",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456696,
+      "name": "Morro do Chapéu",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456724,
+      "name": "Morro Agudo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456735,
+      "name": "Morrinhos",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456814,
+      "name": "Montes Claros",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456816,
+      "name": "Monte Santo de Minas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456826,
+      "name": "Montenegro",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456827,
+      "name": "Monte Mor",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456848,
+      "name": "Monte Carmelo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456863,
+      "name": "Monte Azul Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456866,
+      "name": "Monte Aprazível",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456873,
+      "name": "Monte Alto",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456944,
+      "name": "Mongaguá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3456998,
+      "name": "Mogi Mirim",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457000,
+      "name": "Mogi-Gaucu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457001,
+      "name": "Mogi das Cruzes",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457025,
+      "name": "Mococa",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457107,
+      "name": "Mirandopólis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457133,
+      "name": "Miracema",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457147,
+      "name": "Mineiros",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457191,
+      "name": "Miguel Pereira",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457192,
+      "name": "Miguelópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457247,
+      "name": "Mendes",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457359,
+      "name": "Medianeira",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457360,
+      "name": "Medeiros Neto",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457381,
+      "name": "Mauá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457393,
+      "name": "Matozinhos",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457484,
+      "name": "Mateus Leme",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457509,
+      "name": "Matão",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457528,
+      "name": "Mata de São João",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457566,
+      "name": "Mascote",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457595,
+      "name": "Martinópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457671,
+      "name": "Maringá",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457692,
+      "name": "Marília",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457708,
+      "name": "Maricá",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457736,
+      "name": "Mariana",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457741,
+      "name": "Marialva",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457772,
+      "name": "Marechal Cândido Rondon",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457817,
+      "name": "Marau",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457819,
+      "name": "Marataizes",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457850,
+      "name": "Maragogipe",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457854,
+      "name": "Maracás",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457859,
+      "name": "Maracaju",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457950,
+      "name": "Manhumirim",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457952,
+      "name": "Manhuaçu",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3457991,
+      "name": "Mangaratiba",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458049,
+      "name": "Mandaguari",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458131,
+      "name": "Mairiporã",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458132,
+      "name": "Mairinque",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458147,
+      "name": "Mafra",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458211,
+      "name": "Machado",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458245,
+      "name": "Macatuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458266,
+      "name": "Macaé",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458329,
+      "name": "Luziânia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458397,
+      "name": "Lucas",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458406,
+      "name": "Louveira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458425,
+      "name": "Lorena",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458449,
+      "name": "Londrina",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458479,
+      "name": "Loanda",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458481,
+      "name": "Livramento do Brumado",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458494,
+      "name": "Lins",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458498,
+      "name": "Linhares",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458575,
+      "name": "Limeira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458632,
+      "name": "Leopoldina",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458645,
+      "name": "Lençóis Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458662,
+      "name": "Leme",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458696,
+      "name": "Lavras",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458746,
+      "name": "Laranjeiras do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458778,
+      "name": "Laranjeiras",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458786,
+      "name": "Laranjal Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458826,
+      "name": "Lapa",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458902,
+      "name": "Lajinha",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3458930,
+      "name": "Lages",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459035,
+      "name": "Lajeado",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459094,
+      "name": "Laguna",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459126,
+      "name": "Lagoa Vermelha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459138,
+      "name": "Lagoa Santa",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459251,
+      "name": "Lagoa da Prata",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459342,
+      "name": "Lagarto",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459352,
+      "name": "Ladário",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459462,
+      "name": "Jundiaí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459495,
+      "name": "Júlio de Castilhos",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459505,
+      "name": "Juiz de Fora",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459550,
+      "name": "Juatuba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459667,
+      "name": "José Bonifácio",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459712,
+      "name": "Joinville",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459785,
+      "name": "João Pinheiro",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459796,
+      "name": "João Monlevade",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459869,
+      "name": "Joaçaba",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459922,
+      "name": "Jeremoabo",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459925,
+      "name": "Jequitinhonha",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3459943,
+      "name": "Jequié",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460005,
+      "name": "Jaú",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460064,
+      "name": "Jataí",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460068,
+      "name": "Jarinu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460071,
+      "name": "Jardinópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460087,
+      "name": "Jardim",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460102,
+      "name": "Jaraguá do Sul",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460107,
+      "name": "Jaraguá",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460132,
+      "name": "Japeri",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460148,
+      "name": "Januária",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460170,
+      "name": "Jandira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460172,
+      "name": "Jandaia do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460174,
+      "name": "Janaúba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460186,
+      "name": "Jales",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460200,
+      "name": "Jaguariúna",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460214,
+      "name": "Jaguariaíva",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460225,
+      "name": "Jaguarari",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460232,
+      "name": "Jaguarão",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460242,
+      "name": "Jaguaquara",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460267,
+      "name": "Jacutinga",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460344,
+      "name": "Jacobina",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460355,
+      "name": "Jaciara",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460362,
+      "name": "Jacarezinho",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460370,
+      "name": "Jacareí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460441,
+      "name": "Jaboticabal",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460484,
+      "name": "Ivoti",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460511,
+      "name": "Ituverava",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460513,
+      "name": "Iturama",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460516,
+      "name": "Itupeva",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460522,
+      "name": "Itumbiara",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460523,
+      "name": "Ituiutaba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460530,
+      "name": "Ituberá",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460535,
+      "name": "Itu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460542,
+      "name": "Itororó",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460584,
+      "name": "Itaúna",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460594,
+      "name": "Itatinga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460598,
+      "name": "Itatiba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460620,
+      "name": "Itararé",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460629,
+      "name": "Itaqui",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460644,
+      "name": "Itaquaquecetuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460648,
+      "name": "Itapuranga",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460671,
+      "name": "Itápolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460699,
+      "name": "Itapira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460718,
+      "name": "Itapevi",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460723,
+      "name": "Itapeva",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460728,
+      "name": "Itapetininga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460730,
+      "name": "Itapetinga",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460733,
+      "name": "Itaperuna",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460734,
+      "name": "Itaperuçu",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460738,
+      "name": "Itapemirim",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460740,
+      "name": "Itapema",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460748,
+      "name": "Itapecerica da Serra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460752,
+      "name": "Itapecerica",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460764,
+      "name": "Itaparica",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460773,
+      "name": "Itapaci",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460774,
+      "name": "Itaocara",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460791,
+      "name": "Itanhaém",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460813,
+      "name": "Itambé",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460825,
+      "name": "Itamarandiba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460826,
+      "name": "Itamaraju",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460831,
+      "name": "Itajuípe",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460834,
+      "name": "Itajubá",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460845,
+      "name": "Itajaí",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460887,
+      "name": "Itaí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460899,
+      "name": "Itaguaí",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460949,
+      "name": "Itabuna",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460950,
+      "name": "Itaboraí",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460954,
+      "name": "Itabirito",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460960,
+      "name": "Itabira",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460963,
+      "name": "Itaberaí",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460966,
+      "name": "Itaberaba",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460971,
+      "name": "Itabaianinha",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3460974,
+      "name": "Itabaiana",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461013,
+      "name": "Irecê",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461017,
+      "name": "Irati",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461055,
+      "name": "Iracemápolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461090,
+      "name": "Iporá",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461124,
+      "name": "Ipirá",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461129,
+      "name": "Ipiaú",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461134,
+      "name": "Iperó",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461144,
+      "name": "Ipatinga",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461151,
+      "name": "Ipameri",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461153,
+      "name": "Ipaba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461194,
+      "name": "Inhumas",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461311,
+      "name": "Indaiatuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461316,
+      "name": "Indaial",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461368,
+      "name": "Imbituva",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461370,
+      "name": "Imbituba",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461408,
+      "name": "Ilhéus",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461411,
+      "name": "Ilha Solteira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461425,
+      "name": "Ilhabela",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461444,
+      "name": "Ijuí",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461465,
+      "name": "Iguape",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461481,
+      "name": "Igrejinha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461498,
+      "name": "Igarapé",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461499,
+      "name": "Igarapava",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461501,
+      "name": "Igaraçu do Tietê",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461519,
+      "name": "Içara",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461525,
+      "name": "Ibotirama",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461528,
+      "name": "Ibiúna",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461550,
+      "name": "Ibitinga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461563,
+      "name": "Ibirité",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461565,
+      "name": "Ibirataia",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461576,
+      "name": "Ibirama",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461588,
+      "name": "Ibiporã",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461606,
+      "name": "Ibicaraí",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461620,
+      "name": "Ibiá",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461625,
+      "name": "Ibaté",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461628,
+      "name": "Ibaiti",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461638,
+      "name": "Iaçu",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461655,
+      "name": "Hortolândia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461680,
+      "name": "Herval",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461724,
+      "name": "Gurupi",
+      "subcountry": "Tocantins"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461763,
+      "name": "Guaxupé",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461786,
+      "name": "Guarulhos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461789,
+      "name": "Guarujá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461824,
+      "name": "Guariba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461857,
+      "name": "Guaratuba",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461859,
+      "name": "Guaratinguetá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461871,
+      "name": "Guararema",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461874,
+      "name": "Guararapes",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461879,
+      "name": "Guarapuava",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461888,
+      "name": "Guarapari",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461910,
+      "name": "Guaranésia",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461914,
+      "name": "Guaramirim",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461935,
+      "name": "Guará",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461941,
+      "name": "Guaporé",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461949,
+      "name": "Guapimirim",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461958,
+      "name": "Guanhães",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461973,
+      "name": "Guanambi",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3461995,
+      "name": "Guaíra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462022,
+      "name": "Guaçuí",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462089,
+      "name": "Gravataí",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462315,
+      "name": "Governador Valadares",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462371,
+      "name": "Goiatuba",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462374,
+      "name": "Goiás",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462376,
+      "name": "Goianira",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462377,
+      "name": "Goiânia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462378,
+      "name": "Goianésia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462535,
+      "name": "Gaspar",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462557,
+      "name": "Garibaldi",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462580,
+      "name": "Garça",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462601,
+      "name": "Gandu",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462916,
+      "name": "Frutal",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462956,
+      "name": "Frederico Westphalen",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462964,
+      "name": "Franco da Rocha",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462980,
+      "name": "Francisco Morato",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3462996,
+      "name": "Francisco Beltrão",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463011,
+      "name": "Franca",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463030,
+      "name": "Foz do Iguaçu",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463066,
+      "name": "Forquilhinha",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463140,
+      "name": "Formosa",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463174,
+      "name": "Formiga",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463237,
+      "name": "Florianópolis",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463271,
+      "name": "Flores da Cunha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463422,
+      "name": "Ferraz de Vasconcelos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463432,
+      "name": "Fernandópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463478,
+      "name": "Feira de Santana",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463605,
+      "name": "Farroupilha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463698,
+      "name": "Euclides da Cunha",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463762,
+      "name": "Estrela",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463859,
+      "name": "Esteio",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463865,
+      "name": "Estância Velha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463900,
+      "name": "Estância",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463920,
+      "name": "Esplanada",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3463939,
+      "name": "Espinosa",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464008,
+      "name": "Esmeraldas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464073,
+      "name": "Erechim",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464100,
+      "name": "Entre Rios",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464255,
+      "name": "Encruzilhada do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464274,
+      "name": "Encantado",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464304,
+      "name": "Embu Guaçu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464305,
+      "name": "Embu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464329,
+      "name": "Elói Mendes",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464374,
+      "name": "Duque de Caxias",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464460,
+      "name": "Dourados",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464547,
+      "name": "Dom Pedrito",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464579,
+      "name": "Dois Vizinhos",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464618,
+      "name": "Dois Córregos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464688,
+      "name": "Divinópolis",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464724,
+      "name": "Diamantino",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464728,
+      "name": "Diamantina",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464739,
+      "name": "Diadema",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464809,
+      "name": "Descalvado",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464891,
+      "name": "Curvelo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464974,
+      "name": "Curitibanos",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3464975,
+      "name": "Curitiba",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465038,
+      "name": "Cuiabá",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465059,
+      "name": "Cubatão",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465083,
+      "name": "Cruzeiro do Oeste",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465090,
+      "name": "Cruzeiro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465105,
+      "name": "Cruz das Almas",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465108,
+      "name": "Cruz Alta",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465164,
+      "name": "Cristalina",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465196,
+      "name": "Criciúma",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465209,
+      "name": "Cravinhos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465228,
+      "name": "Coxim",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465284,
+      "name": "Cotia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465320,
+      "name": "Cosmópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465329,
+      "name": "Coruripe",
+      "subcountry": "Alagoas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465342,
+      "name": "Corumbá",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465459,
+      "name": "Coronel Vivida",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465476,
+      "name": "Coronel Fabriciano",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465487,
+      "name": "Coromandel",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465508,
+      "name": "Cornélio Procópio",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465512,
+      "name": "Corinto",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465524,
+      "name": "Cordeirópolis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465527,
+      "name": "Cordeiro",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465624,
+      "name": "Contagem",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465644,
+      "name": "Conselheiro Lafaiete",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465671,
+      "name": "Congonhas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465713,
+      "name": "Conde",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465721,
+      "name": "Concórdia",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465731,
+      "name": "Conchal",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465748,
+      "name": "Conceição do Coité",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465758,
+      "name": "Conceição do Jacuípe",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465764,
+      "name": "Conceição das Alagoas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465767,
+      "name": "Conceição da Feira",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465769,
+      "name": "Conceição da Barra",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465881,
+      "name": "Colorado",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465927,
+      "name": "Colombo",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3465944,
+      "name": "Colatina",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466041,
+      "name": "Coaraci",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466062,
+      "name": "Cláudio",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466171,
+      "name": "Cícero Dantas",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466174,
+      "name": "Cianorte",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466261,
+      "name": "Charqueadas",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466296,
+      "name": "Chapecó",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466429,
+      "name": "Cerquilho",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466436,
+      "name": "Ceres",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466481,
+      "name": "Celso Ramos",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466537,
+      "name": "Caxias do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466547,
+      "name": "Caxambu",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466641,
+      "name": "Catu",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466692,
+      "name": "Catanduva",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466696,
+      "name": "Catalão",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466698,
+      "name": "Cataguases",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466704,
+      "name": "Castro",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466723,
+      "name": "Castelo",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466750,
+      "name": "Cassilândia",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466763,
+      "name": "Casimiro de Abreu",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466779,
+      "name": "Cascavel",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466824,
+      "name": "Casa Branca",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466902,
+      "name": "Carmo do Paranaíba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466903,
+      "name": "Carmo do Cajuru",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466933,
+      "name": "Carlos Barbosa",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466978,
+      "name": "Carazinho",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466988,
+      "name": "Caratinga",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3466998,
+      "name": "Carapicuíba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467012,
+      "name": "Carangola",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467026,
+      "name": "Carandaí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467081,
+      "name": "Caraguatatuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467197,
+      "name": "Capivari",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467261,
+      "name": "Capinzal",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467272,
+      "name": "Capim Grosso",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467305,
+      "name": "Capelinha",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467319,
+      "name": "Capela",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467362,
+      "name": "Capão da Canoa",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467371,
+      "name": "Capâo Bonito",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467452,
+      "name": "Canoinhas",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467467,
+      "name": "Canoas",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467512,
+      "name": "Canguçu",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467530,
+      "name": "Canela",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467542,
+      "name": "Cândido Mota",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467550,
+      "name": "Candelária",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467577,
+      "name": "Canavieiras",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467673,
+      "name": "Campo Verde",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467677,
+      "name": "Campos Novos",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467680,
+      "name": "Campos Gerais",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467684,
+      "name": "Campos do Jordão",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467687,
+      "name": "Campos Belos",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467693,
+      "name": "Campos",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467717,
+      "name": "Campo Mourão",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467736,
+      "name": "Campo Largo",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467747,
+      "name": "Campo Grande",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467760,
+      "name": "Campo Formoso",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467796,
+      "name": "Campo Belo",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467865,
+      "name": "Campinas",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467877,
+      "name": "Campina Grande do Sul",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467956,
+      "name": "Cambuí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467978,
+      "name": "Cambé",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3467985,
+      "name": "Cambará",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468014,
+      "name": "Camaquã",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468023,
+      "name": "Camanducaia",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468031,
+      "name": "Camaçari",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468100,
+      "name": "Caldas Novas",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468121,
+      "name": "Cajuru",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468157,
+      "name": "Cajati",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468158,
+      "name": "Cajamar",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468215,
+      "name": "Caieiras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468317,
+      "name": "Caetité",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468327,
+      "name": "Caeté",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468376,
+      "name": "Cachoeiro de Itapemirim",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468403,
+      "name": "Cachoeirinha",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468425,
+      "name": "Cachoeiras de Macacu",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468436,
+      "name": "Cachoeira do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468535,
+      "name": "Cachoeira",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468560,
+      "name": "Caçapava do Sul",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468562,
+      "name": "Caçapava",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468570,
+      "name": "Caçador",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468592,
+      "name": "Cabreúva",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468615,
+      "name": "Cabo Frio",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468704,
+      "name": "Butiá",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468720,
+      "name": "Buritizeiro",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468732,
+      "name": "Buritis",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468802,
+      "name": "Buri",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468858,
+      "name": "Buerarema",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468879,
+      "name": "Brusque",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468893,
+      "name": "Brumado",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468894,
+      "name": "Brumadinho",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468899,
+      "name": "Brotas",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3468902,
+      "name": "Brodósqui",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469058,
+      "name": "Brasília",
+      "subcountry": "Federal District"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469092,
+      "name": "Bragança Paulista",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469115,
+      "name": "Braço do Norte",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469136,
+      "name": "Botucatu",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469425,
+      "name": "Bom Jesus do Itabapoana",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469437,
+      "name": "Bom Jesus da Lapa",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469516,
+      "name": "Bom Despacho",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469540,
+      "name": "Boituva",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469601,
+      "name": "Bocaiúva",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469932,
+      "name": "Boa Esperança",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469968,
+      "name": "Blumenau",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469984,
+      "name": "Biritiba Mirim",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3469989,
+      "name": "Birigui",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470003,
+      "name": "Biguaçu",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470044,
+      "name": "Betim",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470052,
+      "name": "Bertioga",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470073,
+      "name": "Bento Gonçalves",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470117,
+      "name": "Belo Oriente",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470127,
+      "name": "Belo Horizonte",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470142,
+      "name": "Belford Roxo",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470177,
+      "name": "Bela Vista",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470264,
+      "name": "Bebedouro",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470279,
+      "name": "Bauru",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470324,
+      "name": "Batatais",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470341,
+      "name": "Bastos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470353,
+      "name": "Barueri",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470369,
+      "name": "Barroso",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470428,
+      "name": "Barrinha",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470451,
+      "name": "Barretos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470470,
+      "name": "Barreiro do Jaíba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470583,
+      "name": "Barreiras",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470597,
+      "name": "Barra Velha",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470636,
+      "name": "Barra Mansa",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470674,
+      "name": "Barra dos Coqueiros",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470691,
+      "name": "Barra do Piraí",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470709,
+      "name": "Barra do Garças",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470718,
+      "name": "Barra do Bugres",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470730,
+      "name": "Barra de São Francisco",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470776,
+      "name": "Barra Bonita",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470821,
+      "name": "Barra",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470825,
+      "name": "Bariri",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470858,
+      "name": "Barbacena",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470878,
+      "name": "Barão de Cocais",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3470912,
+      "name": "Bandeirantes",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471005,
+      "name": "Bambuí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471039,
+      "name": "Balneário Camboriú",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471061,
+      "name": "Baixo Guandu",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471196,
+      "name": "Bagé",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471291,
+      "name": "Avaré",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471335,
+      "name": "Atibaia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471368,
+      "name": "Astorga",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471374,
+      "name": "Assis",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471393,
+      "name": "Arujá",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471395,
+      "name": "Artur Nogueira",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471422,
+      "name": "Arroio Grande",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471428,
+      "name": "Arroio do Meio",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471451,
+      "name": "Arraial do Cabo",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471487,
+      "name": "Armação de Búzios",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471683,
+      "name": "Arcos",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471691,
+      "name": "Araxá",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471697,
+      "name": "Araucária",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471715,
+      "name": "Araruama",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471758,
+      "name": "Araras",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471766,
+      "name": "Araraquara",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471772,
+      "name": "Araranguá",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471798,
+      "name": "Arapongas",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471830,
+      "name": "Araguari",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471840,
+      "name": "Aragarças",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471846,
+      "name": "Araçuaí",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471848,
+      "name": "Aracruz",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471849,
+      "name": "Araçoiaba da Serra",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471854,
+      "name": "Araci",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471859,
+      "name": "Araçatuba",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471872,
+      "name": "Aracaju",
+      "subcountry": "Sergipe"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471896,
+      "name": "Aquidauana",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471910,
+      "name": "Apucarana",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471927,
+      "name": "Apiaí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471940,
+      "name": "Aparecida do Taboado",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3471949,
+      "name": "Aparecida",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472048,
+      "name": "Antonina",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472138,
+      "name": "Anicuns",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472177,
+      "name": "Angra dos Reis",
+      "subcountry": "Rio de Janeiro"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472248,
+      "name": "Andradina",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472254,
+      "name": "Andradas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472284,
+      "name": "Anastácio",
+      "subcountry": "Mato Grosso do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472287,
+      "name": "Anápolis",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472311,
+      "name": "Amparo",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472338,
+      "name": "Américo Brasiliense",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472343,
+      "name": "Americana",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472370,
+      "name": "Amargosa",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472417,
+      "name": "Álvares Machado",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472518,
+      "name": "Almirante Tamandaré",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472520,
+      "name": "Almenara",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472603,
+      "name": "Alfenas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472609,
+      "name": "Além Paraíba",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472638,
+      "name": "Alegrete",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472666,
+      "name": "Alegre",
+      "subcountry": "Espírito Santo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472766,
+      "name": "Alagoinhas",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472808,
+      "name": "Aimorés",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472825,
+      "name": "Agudos",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472848,
+      "name": "Águas Vermelhas",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472869,
+      "name": "Águas de Lindóia",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3472969,
+      "name": "Aguaí",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3473157,
+      "name": "Adamantina",
+      "subcountry": "São Paulo"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3473267,
+      "name": "Abaeté",
+      "subcountry": "Minas Gerais"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3473964,
+      "name": "Guaíba",
+      "subcountry": "Rio Grande do Sul"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3474574,
+      "name": "Palmas",
+      "subcountry": "Tocantins"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3661944,
+      "name": "Tefé",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3661980,
+      "name": "Tarauacá",
+      "subcountry": "Acre"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3662075,
+      "name": "Tabatinga",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3662155,
+      "name": "Sena Madureira",
+      "subcountry": "Acre"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3662342,
+      "name": "São Gabriel da Cachoeira",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3662574,
+      "name": "Rio Branco",
+      "subcountry": "Acre"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3662762,
+      "name": "Porto Velho",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3663517,
+      "name": "Manaus",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3663529,
+      "name": "Manacapuru",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664078,
+      "name": "Humaitá",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664207,
+      "name": "Fonte Boa",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664321,
+      "name": "Eirunepé",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664464,
+      "name": "Cruzeiro do Sul",
+      "subcountry": "Acre"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664539,
+      "name": "Coari",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664659,
+      "name": "Carauari",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3664980,
+      "name": "Boa Vista",
+      "subcountry": "Roraima"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3665199,
+      "name": "Ariquemes",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3665202,
+      "name": "Aripuanã",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3924679,
+      "name": "Vilhena",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3924877,
+      "name": "Pôsto Fiscal Rolim de Moura",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3924908,
+      "name": "Pimenta Bueno",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3924948,
+      "name": "Ouro Preto do Oeste",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3925033,
+      "name": "Ji Paraná",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3925040,
+      "name": "Jaru",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3925075,
+      "name": "Guajará Mirim",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 3925212,
+      "name": "Cacoal",
+      "subcountry": "Rondônia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6316406,
+      "name": "Aparecida de Goiânia",
+      "subcountry": "Goiás"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6316729,
+      "name": "Campinas",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6317344,
+      "name": "Jaboatão dos Guararapes",
+      "subcountry": "Pernambuco"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6317464,
+      "name": "Lauro de Freitas",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6317953,
+      "name": "Pinhais",
+      "subcountry": "Paraná"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6318165,
+      "name": "Rio Preto da Eva",
+      "subcountry": "Amazonas"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6318694,
+      "name": "Simões Filho",
+      "subcountry": "Bahia"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6318696,
+      "name": "Sinop",
+      "subcountry": "Mato Grosso"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 6693804,
+      "name": "Cambebba",
+      "subcountry": "Ceará"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 7874479,
+      "name": "Trindade",
+      "subcountry": "Santa Catarina"
+    },
+    {
+      "country": "Brazil",
+      "geonameid": 7874492,
+      "name": "Freguesia do Ribeirao da Ilha",
+      "subcountry": "Santa Catarina"
+    }
+  ]

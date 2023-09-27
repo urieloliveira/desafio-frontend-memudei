@@ -1,0 +1,179 @@
+.result-weather-container {
+  background: #fff3e4;
+  color: #505050;
+  width: 100%;
+  padding: 0 10px;
+  border: 0;
+  box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.city-result-weather-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: #505050;
+}
+
+.city-result-weather-header p {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  align-self: center;
+  min-width: 210px;
+}
+
+.city-result-weather-header button {
+  background: none;
+  color: #ff7f00;
+  font-size: 18px;
+  border: 0;
+  margin-right: -10px;
+}
+
+.city-result-weather {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.city-result-weather h1 {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.city-weather-esquerda,
+.city-weather-direita {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-weather-esquerda .weather-description,
+.city-weather-direita .weather-description {
+  align-self: flex-start;
+}
+
+.weather-description {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  min-height: 50px;
+  align-items: center;
+}
+
+.weather-description p {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.weather-description span {
+  font-size: 17px;
+  margin-right: 0.3em;
+}
+
+/* Você pode aplicar estilos diferentes aos weather-descriptions se desejar */
+.city-weather-esquerda .weather-description {
+  background: #fff3e4;
+  color: #505050;
+}
+
+.city-weather-direita .weather-description {
+  background: #fff3e4;
+  color: #505050;
+}
+
+.result-weather {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  justify-content: flex-start;
+  column-gap: 5px;
+}
+
+.result-weather span {
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  font-size: 20px;
+}
+
+.result-weather p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.result-weather svg {
+  font-size: 20px;
+  color: #ff7f00;
+}
+
+.result-forecast-container {
+  border-top: 1px solid #ff7f00;
+
+  padding: 10px 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 55px;
+  min-height: 60px;
+  text-align: center;
+}
+
+.bottom-forecast p {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
+.forecast-temps {
+  display: flex;
+  justify-content: space-around;
+  min-width: 50px;
+}
+
+.forecast-temps span {
+  color: #ff7f00;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.forecast-temps-small {
+  display: none;
+}
+
+.form-container {
+  width: 100%;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 85%;
+  max-width: 475px;
+  min-width: 230px; /* Defina a largura máxima do campo de entrada conforme necessário */
+}
+

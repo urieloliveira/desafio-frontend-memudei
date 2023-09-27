@@ -1,0 +1,90 @@
+.home-capitais {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 425px;
+}
+
+.home-capitais h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.home-capitais-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #2e2e2e;
+  font-weight: 300;
+}
+
+.home-capitais-header p {
+  font-size: 2em;
+  margin: 10px 0 0 0;
+}
+.home-capitais-header-letf,
+.home-capitais-header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #2e2e2e;
+  font-weight: 300;
+}
+
+.home-capitais-header-right {
+  display: none;
+}
+
+.capital {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.capital p {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+@media (min-width: 425px) {
+  .home-capitais h1 {
+    font-size: 5em;
+  }
+}
+@media (min-width: 576px) {
+  .home-capitais {
+    width: 576px;
+    height: 100vh;
+    margin: 10px auto;
+  }
+
+  .home-capitais-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: calc(50%);
+    row-gap: 50%;
+  }
+
+  .home-capitais-header-right {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home-capitais-header-letf {
+    width: 48%;
+  }
+
+  .capitais {
+    display: flex; /* Mostrar os itens em duas colunas */
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+  }
+
+  .capital {
+    width: 50%; /* Cada item ocupa 50% da largura para formar duas colunas */
+  }
+}
