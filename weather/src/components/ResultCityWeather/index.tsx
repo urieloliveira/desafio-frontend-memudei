@@ -38,7 +38,7 @@ const ResultCityWeather = ({
       ) : (
         <div className="result-weather-container">
           <div className="city-result-weather-header">
-            <p>{cityWeather.city.name}, RJ - Brasil </p>
+            <p>{cityWeather.city.name}, {cityWeather.city.acronym} - Brasil </p>
             <button onClick={onRemove}>
               <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
             </button>

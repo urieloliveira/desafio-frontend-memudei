@@ -1,5 +1,6 @@
 import axios from "axios";
-
+import citiesFile from "../assets/db/cities.json";
+import estadosFile from "../assets/db/estados.json";
 import {
   City,
   CityWeather,
@@ -78,11 +79,14 @@ export async function getWeatherByCity(city: string): Promise<CityWeather> {
 
     if (currentWeatherResponse.status === 200) {
       const currentWeatherdata = currentWeatherResponse.data;
+      const stateAcronym = await findStateAcronymByCityName(
+        currentWeatherdata.name
+      );
 
       city_res = {
         id: currentWeatherdata.id,
         name: currentWeatherdata.name,
-        country: currentWeatherdata.sys.country,
+        acronym: stateAcronym,
         coord: {
           lon: currentWeatherdata.coord.lon,
           lat: currentWeatherdata.coord.lat,
@@ -140,4 +144,21 @@ function getDayOfWeek(dateString: string): string {
 
 function metroPorHoraTokm(velocidade: string): number {
   return Math.round(parseFloat(velocidade));
+}
+
+// Função para encontrar a sigla do estado por nome da cidade
+async function findStateAcronymByCityName(cityName: string): Promise<string> {
+  try {
+    const city = citiesFile.find((c) => c.name === cityName);
+
+    if (city) {
+      const state = estadosFile.find((s) => s.name === city.subcountry);
+      return state?.acronym ?? "NA";
+    }
+
+    return "NA"; // Se a cidade não for encontrada
+  } catch (error) {
+    console.error("Erro ao buscar sigla do estado:", error);
+    throw error;
+  }
 }

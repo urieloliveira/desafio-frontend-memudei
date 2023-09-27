@@ -6,7 +6,7 @@ export interface CityWeather {
 export interface City {
   id: number;
   name: string;
-  country: string;
+  acronym: string;
   coord: Coord;
   timeZone: string;
 }
