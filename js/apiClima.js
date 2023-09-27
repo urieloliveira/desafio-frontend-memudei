@@ -1,3 +1,5 @@
+//Parte do card
+
 const form = document.querySelector('form');
 
 form.addEventListener('submit', (e) => {
@@ -32,5 +34,33 @@ async function climaTempo(cidade) {
         </div>
     `
 
-    console.log(dados)
+    const botaoX = document.createElement('i');
+    botaoX.classList = 'fa-solid fa-x botaoX';
+    
+    botaoX.addEventListener('click', fecharCard)
+
+    card.appendChild(botaoX);
 }
+
+function fecharCard() {
+    const card = document.querySelector('.card');
+    const input = document.querySelector('#input');
+    input.value = '';
+    card.style.display = 'none';
+}
+
+//Parte das capitais
+
+let capitais = [
+    'Rio de Janeiro',
+    'São Paulo',
+    'Belo Horizonte',
+    'Brasília',
+    'Belém',
+    'Salvador',
+    'Curitiba',
+    'Fortaleza',
+    'Manaus',
+    'João Pessoa'
+]
+

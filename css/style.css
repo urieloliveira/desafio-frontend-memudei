@@ -31,6 +31,18 @@ body {
     box-shadow: 10px 10px 150px -45px rgba(0,0,0,0.75);
     margin-bottom: 32px;
     display: none;
+    position: relative;
+}
+
+.botaoX {
+    color: rgba(255,126,47,1);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.botaoX:hover {
+    cursor: pointer;
 }
 
 .info {
