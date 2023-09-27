@@ -4,10 +4,11 @@
             <h1 class="text-center my-4 mx-1 title">
                 Previsão do tempo
             </h1>
-            <div class="search-container d-flex col-12 py-1 px-3 align-items-center justify-content-between ">
-                <!--input placeholder="Insira aqui o nome da cidade"-->
-                <!--Input para busca-->
-                <button (click)="onApiCall()">home-page works!</button>
+            <div class="search-container d-flex col-12 py-1 px-2 mb-5 align-items-center justify-content-between ">
+                <input class="col-10 ml-1 input-search" placeholder="Insira aqui o nome da cidade">
+                <button (click)="onApiCall()" class="col-2 button">
+                    <fa-icon [icon]="glassIcon" class="glassIcon"></fa-icon>
+                </button>
             </div>
         </div>
 

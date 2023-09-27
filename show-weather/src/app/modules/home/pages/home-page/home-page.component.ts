@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ILocationResponse, SearchCityService } from 'src/app/api/search-city/search-city.service';
 import { WeatherService } from 'src/app/api/weather/weather.service';
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 
 export interface ICapitalDataResponse {
   name: string;
@@ -129,6 +130,7 @@ export class HomePageComponent implements OnInit {
     },
   ]
   public capitals: ICapitalDataResponse[] = [];
+  public glassIcon = faMagnifyingGlass;
 
   constructor(
     private cityService: SearchCityService,
