@@ -149,13 +149,13 @@ strong {
     color: #FFFFFF;
     font-size: 32px;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .capitais {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 .capital {
@@ -163,8 +163,13 @@ strong {
     gap: 1em;
     align-items: center;
     margin-top: 1em;
+    margin-left: 3em;
 }
 
 .capitais__right {
     margin-top: 3em;
+}
+
+@media screen and (max-width: 720px) {
+    
 }

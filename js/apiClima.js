@@ -64,3 +64,49 @@ let capitais = [
     'João Pessoa'
 ]
 
+let climaCapitais = []
+
+async function infoCapital(capital) {
+    const resposta = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${capital}&units=metric&lang=pt_br&APPID=92ed7ea1a311d43e789192f2ef5b5389`)
+    const dados = await resposta.json();
+
+    const novaCapital = {
+        nome: dados.name,
+        tempMin: dados.main.temp_min,
+        tempMax: dados.main.temp_max
+    }
+
+    return novaCapital;
+}
+
+async function listaCapitais() {
+    const divCapitais = document.querySelector('.capitais');
+    divCapitais.innerHTML = '';
+
+    climaCapitais = await Promise.all(capitais.map(infoCapital));
+
+    climaCapitais.forEach(capital => {
+        const divCapital = document.createElement('div');
+        divCapital.classList.add('capital');
+
+        const tempMin = document.createElement('p');
+        tempMin.classList.add('capital__texto');
+        tempMin.innerText = parseInt(capital.tempMin) + '°'
+
+        const tempMax = document.createElement('p');
+        tempMin.classList.add('capital__texto')
+        tempMax.innerText = parseInt(capital.tempMax) + '°'
+
+        const nome = document.createElement('p');
+        nome.classList.add('capital__texto');
+        nome.innerText = capital.nome;
+
+        divCapital.appendChild(tempMin);
+        divCapital.appendChild(tempMax);
+        divCapital.appendChild(nome);
+
+        divCapitais.appendChild(divCapital);
+    })
+}
+
+listaCapitais();
