@@ -1,0 +1,48 @@
+hr {
+    opacity: 0.5;
+    border-width: 2px;
+    color: var(--white);
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.title-selected {
+    font-size: 2rem;
+}
+
+.search-container {
+    background-color: var(--white);
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.786);
+}
+
+.box-bottom {
+    min-height: 700px;
+}
+
+.input-search {
+    border: none;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.glassIcon {
+    color: #0000008f;
+}
+
+.title-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media(min-width: 576px) {
+    .title-shadow {
+        box-shadow: none;
+    }
+}

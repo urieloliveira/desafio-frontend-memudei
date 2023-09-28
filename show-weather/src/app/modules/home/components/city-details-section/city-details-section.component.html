@@ -1,0 +1,44 @@
+<div class="col-12 px-0 px-sm-2 py-3 m-0 shadow-sm box">
+    <div class="col-12 px-3 justify-content-start">
+        <p class="mb-4 m-0 px-3">{{upperFisrtLetter(city.name)}} - {{upperFisrtLetter(city.data.sys.country)}}
+        </p>
+        <div class="col-12 col-xg-10 row m-0 mb-3 text-big">
+            <p class="col-6 col-xg-4">{{city.data.main.temp.toFixed(0)}}°</p>
+            <p class="col-6">{{upperFisrtLetter(city.data.weather[0].description)}}</p>
+        </div>
+        <div class="col-12 col-xg-10 row m-0 mb-3 justify-content-between">
+            <div class="col-6 col-xg-4 m-0 row">
+                <div class="col-6 col-lg-4 row">
+                    <fa-icon [icon]="arrowDown" class="orange col-5 col-sm-3 col-lg-4 p-0"></fa-icon>
+                    <p class="col-7 p-0">{{city.data.main['temp_min'].toFixed(0)}}°</p>
+                </div>
+                <div class="col-6 col-lg-4 m-0 row">
+                    <fa-icon [icon]="arrowUp" class="orange col-5 col-sm-3 col-lg-4 p-0"></fa-icon>
+                    <p class="col-7 p-0">{{city.data.main['temp_max'].toFixed(0)}}°</p>
+                </div>
+            </div>
+            <div class="col-6 m-0 row">
+                <span>Sensação</span> {{city.data.main['feels_like'].toFixed(0)}}°
+            </div>
+        </div>
+        <div class="col-12 col-xg-10 row m-0 justify-content-between">
+            <div class="col-6 col-xg-4 m-0 row">
+                <span>Vento</span> {{city.data.wind.speed.toFixed(0)}}Km/h
+            </div>
+            <div class="col-6 m-0 row">
+                <span>Humidade</span> {{city.data.main.humidity.toFixed(0)}}%
+            </div>
+        </div>
+    </div>
+    <hr class="orange" />
+    <div class="col-12 m-0 row justify-content-between">
+        <div class="col-3 p-0" *ngFor="let day of dailyPrevision">
+            <p class="col-12 mb-3 px-3 text-center">{{day.day}}</p>
+            <div class="row col-12 px-2 m-0 orange text-center justify-content-center">
+                {{day.min}}° {{day.max}}°
+            </div>
+        </div>
+    </div>
+
+    <fa-icon [icon]="closeIcon" class="close-icon orange" (click)="closeDetails()"></fa-icon>
+</div>
