@@ -1,6 +1,7 @@
-import { useState } from "react"
+import { useState , useEffect } from "react"
 import SearchBarComponent from './SearchBarComponent'
 import axios from "axios";
+import CapitalsComponent from "./CapitalsComponent";
 
 
 function WeatherComponent () {
@@ -8,6 +9,7 @@ function WeatherComponent () {
     const [exposure, setExposure] = useState(null)
     const [cityData, setCityData] = useState(null)
     const [forecast, setForecast] = useState([]);
+    const [capitalData, setCapitalData] = useState([]);
     const api_key = 'c68613ef0b5845caec1ea56d2784161f'
     
 
@@ -83,6 +85,62 @@ function WeatherComponent () {
             });
     };
 
+    async function generateCapitalData() {
+        const capitals = [
+            "Brasília",
+            "Rio de Janeiro",
+            "São Paulo",
+            "Belo Horizonte",
+            "Salvador",
+            "Curitiba",
+            "Porto Alegre",
+            "Recife",
+            "Fortaleza",
+            "Manaus",
+            "Belém",
+            "Goiânia",
+            "Cuiabá",
+            "Natal",
+            "Florianópolis",
+            "Vitória",
+            "João Pessoa",
+            "Aracaju",
+            "Maceió",
+            "Campo Grande",
+            "Macapá",
+            "Teresina",
+            "Porto Velho",
+            "Boa Vista",
+            "Palmas",
+        ];
+
+        const capitalDataPromises = capitals.map(async (capital) => {
+            try {
+                const response = await axios.get(
+                    `https://api.openweathermap.org/data/2.5/weather?q=${capital}&lang=pt_br&appid=${api_key}`
+                );
+                const { main } = response.data;
+                return {
+                    name: capital,
+                    minTemp: Math.round(tempConvertion(response.data.main.temp_min)),
+                    maxTemp: Math.round(tempConvertion(response.data.main.temp_max)),
+                };
+            } catch (error) {
+                console.error(`Erro ao buscar dados: ${error.message}`);
+                return null;
+            }
+        });
+
+        const capitalData = await Promise.all(capitalDataPromises);
+        const filteredData = capitalData.filter((data) => data !== null);
+
+        setCapitalData(filteredData); // Atualize o estado com os dados das capitais
+    }
+
+    useEffect(() => {
+        generateCapitalData();
+    }, []);
+
     return (
         <div>
           {cityData && exposure &&(
@@ -125,22 +183,33 @@ function WeatherComponent () {
                 </div>   
             </>
           )}
-          <div>
-            <form
-              action=""
-              onSubmit={(e) => {
-                e.preventDefault();
-                getCityWeather(searchedCity);
-                getCityForecast();
-                setExposure(true)
-              }}
-            >
-              <SearchBarComponent
-                value={searchedCity}
-                onChange={(e) => setSearchedCity(e.target.value)}
-              />
-            </form>
-          </div>
+            <div>
+                <form
+                action=""
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    getCityWeather(searchedCity);
+                    getCityForecast();
+                    setExposure(true)
+                }}
+                >
+                <SearchBarComponent
+                    value={searchedCity}
+                    onChange={(e) => setSearchedCity(e.target.value)}
+                />
+                </form>
+            </div>
+            <div>
+                <h1>Capitais</h1>
+                {capitalData.map((data, index) => (
+                <CapitalsComponent
+                    key={index}
+                    name={data.name}
+                    minTemp={data.minTemp}
+                    maxTemp={data.maxTemp}
+                />
+                ))}
+            </div>
         </div>
     )
 }
