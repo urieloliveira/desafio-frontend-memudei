@@ -171,5 +171,28 @@ strong {
 }
 
 @media screen and (max-width: 720px) {
+    body {
+        height: 100%;
+    }
     
+    .capitais {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tempo {
+        font-size: 24px;
+    }
+
+    .min-max i {
+        font-size: 12px;
+    }
+
+    .min-max strong {
+        font-size: 10px;
+    }
+
+    .texto {
+        font-size: 10px;
+    }
 }
