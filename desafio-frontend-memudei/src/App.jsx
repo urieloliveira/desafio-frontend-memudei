@@ -6,7 +6,10 @@ function App() {
 
   return (
     <>
-      <WeatherComponent></WeatherComponent>
+      <div>
+        <h1>Previsão do tempo</h1>
+        <WeatherComponent></WeatherComponent>
+      </div>
     </>
   )
 }
