@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ILocationResponse, SearchCityService } from 'src/app/api/search-city/search-city.service';
 import { WeatherService } from 'src/app/api/weather/weather.service';
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+import { FormGroup, FormControl } from '@angular/forms';
 
-export interface ICapitalDataResponse {
+export interface ICityDataResponse {
   name: string;
   data: any;
 }
@@ -129,7 +130,13 @@ export class HomePageComponent implements OnInit {
       location: { lat: "-10.1689", long: "-48.3317" },
     },
   ]
-  public capitals: ICapitalDataResponse[] = [];
+  public capitals: ICityDataResponse[] = [];
+  public selectedCity?: ICityDataResponse;
+
+  public formGroup = new FormGroup({
+    searchForm: new FormControl(),
+  });
+
   public glassIcon = faMagnifyingGlass;
 
   constructor(
@@ -145,7 +152,7 @@ export class HomePageComponent implements OnInit {
     this.locationCapitals.map(c => {
       this.weatherService.apiGetWeather(c.location).subscribe(
         res => {
-          let capital: ICapitalDataResponse = { name: c.name, data: res };
+          let capital: ICityDataResponse = { name: c.name, data: res };
           this.capitals.push(capital)
         }
       )
@@ -153,10 +160,21 @@ export class HomePageComponent implements OnInit {
   }
 
   public onApiCall() {
-    this.cityService.apiGetCords("niteroi").subscribe(res => {
-      this.weatherService.apiGetWeather(res).subscribe(data => console.log(data))
-    })
+    const searchForm = this.formGroup.controls.searchForm;
+    if (!searchForm.value)
+      return;
 
-    console.log("cap - ", this.capitals)
+    this.cityService.apiGetCords(searchForm.value).subscribe(res => {
+      if (res.lat)
+        this.weatherService.apiGetWeather(res).subscribe(data => {
+          this.selectedCity = { name: searchForm.value, data: data };
+          searchForm.setValue("");
+          searchForm.updateValueAndValidity();
+        })
+    })
+  }
+
+  public onClearSelected() {
+    this.selectedCity = undefined;
   }
 }

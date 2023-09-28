@@ -4,6 +4,7 @@ import { HomePageComponent } from './home/pages/home-page/home-page.component';
 import { CitySectionComponent } from './home/components/city-section/city-section.component';
 import { CityDetailsSectionComponent } from './home/components/city-details-section/city-details-section.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     CommonModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ReactiveFormsModule
   ]
 })
 export class ModulesModule { }

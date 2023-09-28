@@ -23,13 +23,18 @@ export class SearchCityService {
     let _url = `${this.url}q=${cityName}&format=jsonv2`;
     return this.http.get<any>(_url).pipe(
       map(res => {
-        let local: ILocationResponse = { lat: "", long: "" };
+        try {
+          let local: ILocationResponse = { lat: "", long: "" };
 
-        res = res.find((d: any) => d.type == "city") ?? res[0];
-        local.lat = res['lat'];
-        local.long = res['lon'];
+          res = res.find((d: any) => d.type == "city") ?? res[0];
+          local.lat = res['lat'];
+          local.long = res['lon'];
 
-        return local;
+          return local;
+        }
+        catch (e) {
+          return "erro ao encontrar cidade";
+        }
       })
     );
   }

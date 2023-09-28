@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ICapitalDataResponse } from '../../pages/home-page/home-page.component';
+import { ICityDataResponse } from '../../pages/home-page/home-page.component';
 
 @Component({
   selector: 'app-city-section',
@@ -7,7 +7,7 @@ import { ICapitalDataResponse } from '../../pages/home-page/home-page.component'
   styleUrls: ['./city-section.component.scss']
 })
 export class CitySectionComponent {
-  @Input() city!: ICapitalDataResponse;
+  @Input() city!: ICityDataResponse;
 
   constructor() { }
 }

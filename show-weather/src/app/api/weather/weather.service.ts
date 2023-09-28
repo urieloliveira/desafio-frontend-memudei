@@ -16,12 +16,12 @@ export class WeatherService {
   ) { }
 
   public apiGetWeather(local: ILocationResponse): Observable<any> {
-    let _url = `${this.url}lat=${local.lat}&lon=${local.long}&appid=${this.appId}`;
+    let _url = `${this.url}lat=${local.lat}&lon=${local.long}&appid=${this.appId}&lang=pt_br`;
 
     return (this.http.get<any>(_url).pipe(
       map(
         res => {
-          res.main['fels_like'] = this.kelvinToCeusius(res.main['fels_like']);
+          res.main['feels_like'] = this.kelvinToCeusius(res.main['feels_like']);
           res.main['temp'] = this.kelvinToCeusius(res.main['temp']);
           res.main['temp_max'] = this.kelvinToCeusius(res.main['temp_max']);
           res.main['temp_min'] = this.kelvinToCeusius(res.main['temp_min']);
