@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="up-side">
+            <h1 class="titulo">Previsão do tempo</h1>
+
+            <div class="card">
+                <i class="fa-solid fa-x botaoX" id="botaoX"></i>
+                <div class="info">
+                    <span class="cidade">Londrina</span>
+                    <h2 class="tempo">20°C Nublado</h2>
+                    <div class="min-max">
+                        <i class="fa-solid fa-arrow-down"><strong>16°</strong></i>
+                        <i class="fa-solid fa-arrow-up"><strong>27°</strong></i>
+                    </div>
+                    <p class="texto">Sensação <strong>19°</strong></p>
+                    <p class="texto">Vento <strong>18 km/h</strong></p>
+                    <p class="texto">Humidade <strong>89%</strong></p>
+                </div>
+                <div class="semana">
+                    <div class="dia">
+                        <h4>Terça</h4>
+                        <div class="dia__min-max">
+                            <small>18°</small>
+                            <small>26°</small>
+                        </div>
+                    </div>
+                    <div class="dia">
+                        <h4>Quarta</h4>
+                        <div class="dia__min-max">
+                            <small>18°</small>
+                            <small>26°</small>
+                        </div>
+                    </div>
+                    <div class="dia">
+                        <h4>Quinta</h4>
+                        <div class="dia__min-max">
+                            <small>18°</small>
+                            <small>26°</small>
+                        </div>
+                    </div>
+                    <div class="dia">
+                        <h4>Sexta</h4>
+                        <div class="dia__min-max">
+                            <small>18°</small>
+                            <small>26°</small>
+                        </div>
+                    </div>
+                    <div class="dia">
+                        <h4>Sábado</h4>
+                        <div class="dia__min-max">
+                            <small>18°</small>
+                            <small>26°</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form>
+                <div class="input-container">
+                    <input type="text" placeholder="Insira aqui o nome da cidade" id="input">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="down-side">
+            <h2 class="down-side__titulo">Capitais</h2>
+            <div class="capitais">
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Rio de janeiro</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">São Paulo</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Belo Horizonte</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Brasília</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Belém</p>
+                </div>
+                
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Salvador</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Curitiba</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Fortaleza</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">Manaus</p>
+                </div>
+                <div class="capital">
+                    <p class="capital__texto">18°</p>
+                    <p class="capital__texto">27°</p>
+                    <p class="capital__texto">João Pessoa</p>
+                </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/apiClima.js"></script>
+</body>
+</html>
