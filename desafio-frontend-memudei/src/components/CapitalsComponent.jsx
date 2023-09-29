@@ -1,19 +1,24 @@
-import WeatherComponent from "./WeatherComponent";
 
 const CapitalsComponent = ({name, minTemp, maxTemp}) => {
     
     return(
         <div>
-            <div>
-                <p>{minTemp}</p>
-            </div>
-            <div>
-                <p>{maxTemp}</p>
-            </div>
-            <div>
-                <p>{name}</p>
-            </div>
-        </div>
+  <ul>
+    <li>
+      <div >
+        <p></p>
+        <p>{minTemp}</p>
+      </div>
+      <div >
+        <p ></p>
+        <p>{maxTemp}</p>
+      </div>
+      <div>
+        <p>{name}</p>
+      </div>
+    </li>
+  </ul>
+</div>
     )
 }
 

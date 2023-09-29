@@ -1,6 +1,8 @@
+
 :root {
   background-image: linear-gradient(#ff7f00, #ffba00);
   background-repeat: no-repeat;
   background-attachment: fixed;
   list-style-type:none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

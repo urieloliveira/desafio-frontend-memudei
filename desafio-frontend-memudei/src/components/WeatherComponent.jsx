@@ -1,36 +1,42 @@
 import { useState , useEffect } from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClose , faArrowUp , faArrowDown , faSearch} from '@fortawesome/free-solid-svg-icons';
 import SearchBarComponent from './SearchBarComponent'
 import axios from "axios";
-import CapitalsComponent from "./CapitalsComponent";
-
+import CapitalsComponent from "./CapitalsComponent"
 
 function WeatherComponent () {
     const [searchedCity, setSearchedCity] = useState('')
-    const [exposure, setExposure] = useState(null)
     const [cityData, setCityData] = useState(null)
-    const [forecast, setForecast] = useState([]);
-    const [capitalData, setCapitalData] = useState([]);
+    const [forecast, setForecast] = useState([])
+    const [capitalData, setCapitalData] = useState([])
+    const [exposure, setExposure] = useState(null)
+    const [statesData, setStatesData] = useState([])
+    const statesDataURL = "/estados-cidades.json"
     const api_key = 'c68613ef0b5845caec1ea56d2784161f'
     
+
 
     function tempConvertion(fahrenheit) {
         let celsius = fahrenheit - 273.15
         return celsius
     }
 
+    
+
     const getCityForecast = () => {
         axios
             .get(
-            `https://api.openweathermap.org/data/2.5/forecast?q=${searchedCity}&lang=pt_br&appid=${api_key}`
+                `https://api.openweathermap.org/data/2.5/forecast?q=${searchedCity}&lang=pt_br&appid=${api_key}`
             )
             .then((response) => {
-            const forecastData = response.data.list;
-            const dailyForecastData = forecastData.filter(
+                const forecastData = response.data.list
+                const dailyForecastData = forecastData.filter(
                 (item, index) => index % 8 === 0
             );
             const forecast = dailyForecastData.map((item) => {
                 const date = new Date(item.dt * 1000); 
-                const dayOfWeek = getDayOfWeek(date.getDay()); 
+                const dayOfWeek = getDayOfWeek(date.getDay())
                 return {
                 dayOfWeek,
                 maxTemp: Math.round(tempConvertion(item.main.temp_max)),
@@ -38,26 +44,50 @@ function WeatherComponent () {
                 };
             });
 
-            setForecast(forecast);
-            console.log(forecast);
+            setForecast(forecast)
+            console.log(forecast)
             })
             .catch((error) => {
-            console.log(error);
+            console.log(error)
             });
     };
     
     function getDayOfWeek(dayIndex) {
         const daysOfWeek = [
             "Domingo",
-            "Segunda-feira",
-            "Terça-feira", 
-            "Quarta-feira", 
-            "Quinta-feira", 
-            "Sexta-feira", 
+            "Segunda",
+            "Terça", 
+            "Quarta", 
+            "Quinta", 
+            "Sexta", 
             "Sábado"
         ];
-        return daysOfWeek[(dayIndex + 1) % 7];
+        return daysOfWeek[(dayIndex + 1) % 7]
     }
+
+    /*
+    function getCityState(cityName) {
+        fetch(statesDataURL) 
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error("Erro ao buscar o arquivo JSON")
+            }
+            return response.json()
+        })
+        .then((response) => {
+            setStatesData(response)
+            console.log(response)
+        })
+        .catch((error) => {
+            console.error(error)
+        });
+        for (const state of statesData.estados) {
+            if (state.cidades.includes(cityName)) {
+                console.log(state.sigla)
+                return state.sigla
+            }
+        }
+    }*/
 
     const getCityWeather = () => {
         axios
@@ -67,6 +97,7 @@ function WeatherComponent () {
             .then((response) => {
                 setCityData({
                     name: response.data.name,
+                    /*state: getCityState(response.data.name),*/
                     country: response.data.sys.country,
                     temp: Math.round(tempConvertion(response.data.main.temp)),
                     description: response.data.weather[0].description,
@@ -82,8 +113,8 @@ function WeatherComponent () {
             })
             .catch((error) => {
                 console.log(error)
-            });
-    };
+            })
+    }
 
     async function generateCapitalData() {
         const capitals = [
@@ -132,70 +163,79 @@ function WeatherComponent () {
         });
 
         const capitalData = await Promise.all(capitalDataPromises);
-        const filteredData = capitalData.filter((data) => data !== null);
 
-        setCapitalData(filteredData); // Atualize o estado com os dados das capitais
+        setCapitalData(capitalData);
     }
 
-    useEffect(() => {
-        generateCapitalData();
-    }, []);
 
+    useEffect(() => {
+        generateCapitalData()
+    }, []);
     return (
         <div>
-          {cityData && exposure &&(
-            <>
-                <div>
-                    <h1>{cityData.name} - {cityData.country}</h1>
-                    <h1>{cityData.temp}°C</h1>
-                    <h1>{cityData.description.charAt(0).toUpperCase() + cityData.description.slice(1)}</h1>
-                    <button onClick={() => setExposure(false)}>
-                        fechar
-                    </button>
+            {cityData && exposure &&(
+                <>
                     <div>
-                        <p>{cityData.minTemp}°</p>
-                        <p>{cityData.maxTemp}°</p>
-                        <p>
-                            Vento{" "}
-                            <span>{cityData.wind}</span>
-                            {" "}
-                            km/h
-                        </p>
-                        <p> 
-                            Sensação{" "}
-                            <span>{cityData.feels}°</span>
-                        </p>
-                        <p>
-                            Humidade{" "} 
-                            <span>{cityData.humidity}</span>
-                            %
-                        </p>
-                    </div>
-                    <div>
-                        {forecast.map((dayForecast, index) => (
-                            <div key={index}>
-                                <h2>{dayForecast.dayOfWeek}</h2>
-                                <p>min {dayForecast.minTemp}°C</p>
-                                <p>max {dayForecast.maxTemp}°C</p>
+                        <div>
+                            <p>{cityData.name} - {cityData.country}</p>
+                            <h1>{cityData.temp}°C</h1>
+                            <h1>{cityData.description.charAt(0).toUpperCase() + cityData.description.slice(1)}</h1>
+                            <button  onClick={() => setExposure(false)}>
+                                <FontAwesomeIcon icon={faClose} />
+                            </button>
+                        </div>  
+                        <div>
+                            <div>
+                                <div>
+                                    <FontAwesomeIcon icon={faArrowDown} />
+                                    <p>{cityData.minTemp}°</p>
+                                    <FontAwesomeIcon icon={faArrowUp} />
+                                    <p>{cityData.maxTemp}°</p>
+                                </div>
+                                <div>
+                                    <p>
+                                        Vento{" "}<span>{cityData.wind}</span>{" "}km/h
+                                    </p>
+                                </div>
                             </div>
-                        ))}
-                    </div>
-                </div>   
-            </>
+                            <div>
+                                <p> 
+                                    Sensação{" "}<span>{cityData.feels}°</span>
+                                </p>
+                                <p>
+                                    Humidade{" "} <span>{cityData.humidity}</span>%
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <ul >
+                                {forecast.map((dayForecast, index) => (
+                                    <li className="" key={index}>
+                                    <p className="">{dayForecast.dayOfWeek}</p>
+                                    <p>{dayForecast.minTemp}°C</p>
+                                    <p>{dayForecast.maxTemp}°C</p>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>   
+                </>
           )}
             <div>
                 <form
                 action=""
                 onSubmit={(e) => {
-                    e.preventDefault();
-                    getCityWeather(searchedCity);
-                    getCityForecast();
+                    e.preventDefault()
+                    getCityWeather(searchedCity)
+                    getCityForecast()
                     setExposure(true)
                 }}
                 >
                 <SearchBarComponent
                     value={searchedCity}
-                    onChange={(e) => setSearchedCity(e.target.value)}
+                    onChange={(e) => {
+                        setSearchedCity(e.target.value);
+                      }}
                 />
                 </form>
             </div>

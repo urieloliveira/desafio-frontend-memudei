@@ -1,4 +1,7 @@
-const SearchBarComponent =({value, onChange}) => {
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const SearchBarComponent = ( { value, onChange } ) => {
     return(
         <div>
             <input 
@@ -8,7 +11,7 @@ const SearchBarComponent =({value, onChange}) => {
                 onChange={onChange}
             />
             <button>
-                Search
+                <FontAwesomeIcon icon={faSearch}/>
             </button>
         </div>
     )
