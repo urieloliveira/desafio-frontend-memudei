@@ -1,78 +1,70 @@
-# Desafio-Frontend
+# Getting Started with Create React App
 
-## Bem-vindo
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Olá, seja bem-vindo ao desafio de frontend da Memudei. Este desafio tem como objetivo avaliar seus conhecimentos em HTML, CSS e Javascript e como você estrutura seu código.
+## Available Scripts
 
-## Instruções
+In the project directory, you can run:
 
-* Faça um fork deste repositório.
-* Crie uma branch com seu nome-sobrenome.
-* Quando estiver pronto, faça um pull request para a branch master deste repositório.
-* Não se esqueça de atualizar o README com as instruções para rodar o projeto.
-* Envie um email para urielsateles@gmail.com.
-* Você tem até o dia 29/09/2023 para concluir o desafio.
-* Enquanto estiver trabalhando no desafio, não se esqueça de fazer commits com mensagens claras e objetivas (lembre-se que o commit é a documentação do seu código).
-* Enviaremos o feedback sobre o seu desafio por email em até 7 dias úteis após o envio do pull request.
-* Caso tenha alguma dúvida, entre em contato comigo através dos canais de comunicação abaixo.
+### `npm start`
 
-## O desafio
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Open Weather de previsão do tempo (https://openweathermap.org/api/one-call-3). Não se preocupe caso não consiga consumir a API, vamos avaliar o código, a estrutura do projeto e o layout. (Dica: você pode usar o https://www.mockapi.io/ para simular uma API).
-O layout final deverá ficar o mais próximo possível da versão abaixo (sim, vamos ter a versão responsiva mobile e a versão desktop):
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Web:
+### `npm test`
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop1.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop2.png)
+### `npm run build`
 
-Mobile responsivo:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile1.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile2.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## O que esperamos
+### `npm run eject`
 
-* A consistência dos commits, com mensagens claras e objetivas (lembre-se que o commit é a documentação do seu código);
-* A evolução do seu trabalho (vá fazendo commits conforme for progredindo no desafio);
-* A estrutura do projeto (arquivos, pastas, etc);
-* A estrutura do código;
-* A aplicação de boas práticas de programação;
-* O layout final (o mais próximo possível do layout proposto);
-* A responsividade (o layout deve se adaptar para dispositivos móveis);
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Para ir além
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* TypeScript;
-* variáveis de ambiente (dotenv, etc);
-* criação de componentes reutilizáveis;
-* Testes unitários e end-to-end (Jest, Cypress, etc);
-* biblioteca web (React, Angular, Vue, etc);
-* biblioteca de internacionalização (i18n, react-intl, etc);
-* biblioteca de UI ou framework CSS  (Material UI, Tailwind, Bootstrap, etc);
-* aplique o conceito de mobile first;
-* aplique o conceito de atomic design;
-* aplique o conceito de clean architecture;
-* ferramenta de linting (ESLint, Prettier, etc);
-* state management (Redux, Mobx, Zustand, etc);
-* validação de formulário (Formik, React Hook Form, etc);
-* biblioteca de validação (Yup, Joi, Zod, etc);
-* biblioteca de animação (Framer Motion, React Spring, etc);
-* Deploy da aplicação (Heroku, Netlify, Vercel, etc);
-* Deploy da aplicação em um container (Docker, etc);
-* CI/CD (Github Actions, CircleCI, etc);
-* analisadores de código (SonarQube, Code Climate, etc);
-* biblioteca de tipagem (PropTypes, TypeScript, etc);
-* biblioteca de gerenciamento de side effects (Redux Saga, Redux Thunk, etc);
-* biblioteca de gerenciamento de rotas (React Router, Reach Router, etc);
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Canais de comunicação
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Você pode entrar em contato comigo através dos canais abaixo caso tenha alguma dúvida ou queira agendar uma call para conversarmos sobre o desafio.
+## Learn More
 
-* Email: urielsateles@gmail.com
-* Discord: urielguy
-* WhatsApp: (43) 9 9152-2449
-  
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
