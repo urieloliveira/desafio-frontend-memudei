@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/imgs/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" href="css/index.css" />
@@ -11,18 +10,22 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Time Pred</title>
-    <script src="js/App.js" defer></script>
 </head>
 
 <body>
     <div class="App">
         <header class="App-header">
+
             <h1>Previsão do tempo </h1>
 
             <div id='data-Weather' class='data-Weather'>
-                <span id='local'> Cidade, estado - pais </span>
-                <p id='temperatura'> Graus Celsius <span id='condicao-Tempo'>Nublado</span></p>
-                
+                <span class="close-button">
+                    <i class="fas fa-times"></i>
+                </span>
+                <div id='local' class="local">Cidade - país</div>
+                <div id='temperatura'>23<span>&deg;C</span> 
+                    <span id='condicao-Tempo'>Nublado</span>
+                </div>
                 <div class="infos" id="infos1">
                     <i class="fa-solid fa-arrow-down fa-lg"></i>
                     <h3 id="temp-Min">18&deg;C </h3>
@@ -31,38 +34,38 @@
                     <span id="sensacao" class="sensa"> Sencação </span>
                     <h3 id="temp-Sens">19&deg;C</h3>
                 </div>
-                
+
                 <div class="infos" id="infos2">
-                    <span id="wind"> Vento <h3 id="wind-Speed" >23km/h</h3></span>
-                    <span id="humidade" class="umidity"> Humidade <h3 id="humidade-Ar"> 90% </h3></span>
+                    <span id="wind"> Vento <h3 id="wind-Speed">23km/h</h3></span>
+                    <span id="humidade" class="humidity"> Humidade <h3 id="humidade-Ar"> 90% </h3></span>
                 </div>
                 <div class="orange-line"></div>
                 <footer>
                     <div class='dia-Sem' id='dia-sem'>
                         <div class='dia'>
                             <div>Segunda</div>
-                            <span id='temp-Min' class="temp-Min">18&deg;</span>
-                            <span id='temp-Max' class="temp-Max">24&deg;</span>
+                            <span id='temp-Min1' class="temp-Min">18&deg;</span>
+                            <span id='temp-Max1' class="temp-Max">24&deg;</span>
                         </div>
                         <div class='dia'>
-                            <div>Segunda</div>
-                            <span id='temp-Min' class="temp-Min">18&deg;</span>
-                            <span id='temp-Max' class="temp-Max">24&deg;</span>
+                            <div>Terça</div>
+                            <span id='temp-Min2' class="temp-Min">18&deg;</span>
+                            <span id='temp-Max2' class="temp-Max">24&deg;</span>
                         </div>
                         <div class='dia'>
-                            <div>Segunda</div>
-                            <span id='temp-Min' class="temp-Min">18&deg;</span>
-                            <span id='temp-Max' class="temp-Max">24&deg;</span>
+                            <div>Quarta</div>
+                            <span id='temp-Min3' class="temp-Min">18&deg;</span>
+                            <span id='temp-Max3' class="temp-Max">24&deg;</span>
                         </div>
                         <div class='dia'>
-                            <div>Segunda</div>
-                            <span id='temp-Min' class="temp-Min">18&deg;</span>
-                            <span id='temp-Max' class="temp-Max">24&deg;</span>
+                            <div>Quinta</div>
+                            <span id='temp-Min4' class="temp-Min">18&deg;</span>
+                            <span id='temp-Max4' class="temp-Max">24&deg;</span>
                         </div>
                         <div class='dia'>
-                            <div>Segunda</div>
-                            <span id='temp-Min' class="temp-Min">18&deg;</span>
-                            <span id='temp-Max' class="temp-Max">24&deg;</span>
+                            <div>Sexta</div>
+                            <span id='temp-Min5' class="temp-Min">18&deg;</span>
+                            <span id='temp-Max5' class="temp-Max">24&deg;</span>
                         </div>
                     </div>
                 </footer>
@@ -71,7 +74,7 @@
 
             <div class='Div-search' id='Search'>
                 <input type="text" placeholder='Insira aqui o nome da cidade' class='Input' id='inputCity' />
-                <Button class="button">
+                <Button class="button" id="searchBtn">
                     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
                 </Button>
             </div>
@@ -80,7 +83,7 @@
 
             <div class='Capitais'>
                 <h2> Capitais </h2>
-                
+
 
 
             </div>
@@ -88,6 +91,7 @@
         </header>
     </div>
 
+    <script src="js/App.js" defer></script>
 </body>
 
 </html>

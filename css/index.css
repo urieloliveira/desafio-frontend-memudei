@@ -49,6 +49,35 @@ h1 {
   height: auto;
   margin-top: 3%;
   padding-bottom: 30px;
+  position: relative; 
+}
+.close-button {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.close-button i {
+  font-size: 25px;
+  color: orange;
+}
+.local{
+  width: 100%; 
+  margin-top: 2%;
+  text-align: left; 
+  margin-left: 8%;
+}
+.local {
+  text-align: left;
+  margin-left: 8%;
+}
+
+#temperatura {
+  text-align: left;   
+  margin-left: 8%; 
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 h3 {
@@ -72,7 +101,7 @@ h3 {
 .infos {
   width: 100%; 
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: left; 
   margin-left: 8%;
 }
@@ -88,8 +117,9 @@ h3 {
   display: inline-block;
 }
 
-.umidity {
+.humidity {
   display: inline-block;
+  margin-left: 32px;
 }
 /*________________________________________*/
 .fa-arrow-up{
@@ -134,14 +164,19 @@ h3 {
   justify-content: center;
   height: 35px;
   width: 400px;
+  margin-top: 15px;
 }
 
 .temp-Min,
 .temp-Max {
     color: orange;
 }
-
+input[type="text" i] {
+  padding-left: 1px;
+  padding-inline: 15px;
+} 
 .Input {
+  padding-left: 10px;
   border: hidden;
   width: 300px;
   height: 35px;
