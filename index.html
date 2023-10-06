@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/imgs/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="css/App.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Time Pred</title>
+    <script src="js/App.js" defer></script>
+</head>
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <h1>Previsão do tempo </h1>
+
+            <div id='data-Weather' class='data-Weather'>
+                <span id='local'> Cidade, estado - pais </span>
+                <p id='temperatura'> Graus Celsius <span id='condicao-Tempo'></span></p>
+                <div id='infos'>
+                    <i class="fa-solid fa-arrow-down"></i><span id='temp-Min'>18 &deg;C </span>
+                    <span id='temp-Max'> 24 &deg;C</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <span id='sensacao'> sencacao <p id='temp-Sens'>19&deg;C</p></span>
+                    <span id='wind'> Vento <p id='wind-Speed'>23km/h</p></span>
+                    <span id='humidade'> Humidade <p id='humidade-Ar'> 90% </p></span>
+                    <div class="orange-line"></div>
+                </div>
+                <footer>
+                    <div class='dia-Sem' id='dia-sem'>
+                        <div>Segunda
+                            <span id='temp-Min'>18 &deg;C</span>
+                            <span id='temp-Max'> 24 &deg;C</span>
+                        </div>
+                        <div>Segunda
+                            <span id='temp-Min'>18 &deg;C</span>
+                            <span id='temp-Max'> 24 &deg;C</span>
+                        </div>
+                        <div>Segunda
+                            <span id='temp-Min'>18 &deg;C</span>
+                            <span id='temp-Max'> 24 </span>
+                        </div>
+                        <div>Segunda
+                            <span id='temp-Min'>18 </span>
+                            <span id='temp-Max'> 24 </span>
+                        </div>
+                        <div>Segunda
+                            <span id='temp-Min'>18 </span>
+                            <span id='temp-Max'> 24 </span>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
+            <div class='Div-search' id='Search'>
+
+                <input type="text" placeholder='Insira aqui o nome da cidade' class='Input' id='inputCity' />
+                <Button class="button">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </Button>
+
+
+            </div>
+
+            <div class="White-line"></div>
+
+            <div class='Capitais'>
+                <h2> Capitais </h2>
+
+
+            </div>
+
+        </header>
+    </div>
+
+</body>
+
+</html>
