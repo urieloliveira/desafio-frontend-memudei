@@ -1,23 +1,2 @@
-import { useEffect } from 'react';
-import './App.css';
-import pesqButton from './pesqBtn';
-import { FaMagnifyingGlass } from "react-icons/fa6";
-import { AiOutlineArrowUp } from "react-icons/ai";
-import { AiOutlineArrowDown } from "react-icons/ai";
-import React from 'react';
-  
 
-function App() {
-    const inputCity = document.querySelector("#inputCity");
-
-    const handleSearch = () => {
-      const cidade = inputCity.value;
-      console.log(cidade);
-  };
-
-  return (
-    
-  );
-}
-
-export default App;
+  //https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=bc6f303b56f6fcfea5d7073a69ac54d1

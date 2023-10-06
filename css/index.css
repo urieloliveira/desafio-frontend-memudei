@@ -14,10 +14,11 @@ code {
 
 .App {
   text-align: center;
-  
+
 }
-.App-header{
-  background: linear-gradient(180deg, #ff8800,#FFB917);
+
+.App-header {
+  background: linear-gradient(180deg, #ff8800, #FFB917);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,37 +26,108 @@ code {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.hide{
+
+.hide {
   display: none;
 }
 
 
-h1 {height: 25px;}
+h1 {
+  height: 25px;
+}
 
 .data-Weather {
   background-color: aliceblue;
   color: rgb(59, 59, 59);
   box-shadow: #371801 0px 0px 3px 0px;
   width: 500px;
-  height: 700px;
+  height: auto;
   margin-top: 3%;
+  padding-bottom: 30px;
+}
+
+h3 {
+  display: contents;
+  font-size: 15px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/*________________________________________*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;
+}
+
+.infos {
+  width: 100%; 
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: left; 
+  margin-left: 8%;
+}
+.fa-solid {
+  vertical-align: middle;
+}
+
+.margin {
+  margin-left: 5px;
+}
+
+.sensa {
+  display: inline-block;
+}
+
+.umidity {
+  display: inline-block;
+}
+/*________________________________________*/
+.fa-arrow-up{
+  color: orange; 
+  margin: 0px 0px 0px 10px;
+}
+.fa-arrow-down {
+  
+  color: orange; 
+}
+
+.sensa {
+  margin-left: 15px;
 }
 
 .orange-line {
   background-color: orange;
-  height: 1px; 
-  width: 65%; 
-  margin: 35px auto 0px auto; 
+  height: 1px;
+  width: 85%;
+  margin: 35px auto 0px auto;
 
-}  
-.dia-Sem{
-  display: inline-block;
-  justify-content: space-around;
-  /*HERE*/
+}
+
+.umidity {
+  margin-left: 30px;
+}
+
+.dia-Sem {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dia {
+  text-align: center;
+  font-size: 15px;
 }
 .Div-search {
   align-items: center;
@@ -64,9 +136,14 @@ h1 {height: 25px;}
   width: 400px;
 }
 
+.temp-Min,
+.temp-Max {
+    color: orange;
+}
+
 .Input {
   border: hidden;
-  width: 250px;
+  width: 300px;
   height: 35px;
   background-color: white;
   padding: 0%;
@@ -77,24 +154,24 @@ h1 {height: 25px;}
   background-color: white;
   height: 35px;
   width: 35px;
-  border:  0px;
+  border: 0px;
   cursor: pointer;
   padding: 0%;
 }
 
 .White-line {
   background-color: white;
-  height: 1px; 
-  width: 65%; 
-  margin: 35px auto 0px auto; 
+  height: 1px;
+  width: 65%;
+  margin: 35px auto 0px auto;
 
-}  
+}
 
 h2 {
   margin-top: 10px;
 }
 
-.Capitais{
+.Capitais {
   /*Capitais que aparecem*/
-   /*Capitais que aparecem*/
+  /*Capitais que aparecem*/
 }
