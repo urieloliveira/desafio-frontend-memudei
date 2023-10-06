@@ -1,14 +1,9 @@
 .App {
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #FFB917;
+.App-header{
+  background: linear-gradient(180deg, #ff8800,#FFB917);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,41 +11,78 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.hide{
+  display: none;
+}
+
 
 h1 {height: 25px;}
 
-.Cidade {
-  /*CIDADE PESQUISADA*/
-  
+.data-Weather {
+  background-color: aliceblue;
+  color: rgb(59, 59, 59);
+  box-shadow: #371801 0px 0px 3px 0px;
+  width: 500px;
+  height: 700px;
+  margin-top: 3%;
+}
+
+.orange-line {
+  background-color: orange;
+  height: 1px; 
+  width: 65%; 
+  margin: 35px auto 0px auto; 
+
+}  
+.dia-Sem{
+  display: inline-block;
+  justify-content: space-around;
+  /*HERE*/
 }
 .Div-search {
   align-items: center;
   justify-content: center;
+  height: 35px;
+  width: 400px;
 }
 
 .Input {
- border-right: hidden;
+  border: hidden;
+  width: 250px;
+  height: 35px;
+  background-color: white;
+  padding: 0%;
 }
 
-.Button {
+.button {
   border-left: hidden;
   background-color: white;
+  height: 35px;
+  width: 35px;
+  border:  0px;
+  cursor: pointer;
+  padding: 0%;
 }
 
 .White-line {
   background-color: white;
   height: 1px; 
-  width: 75%; 
-  margin: 35px auto 20px auto; 
+  width: 65%; 
+  margin: 35px auto 0px auto; 
 
 }  
 
 h2 {
-  height: 25px;
+  margin-top: 10px;
 }
 
 .Capitais{
   /*Capitais que aparecem*/
+   /*Capitais que aparecem*/
 }
 
 @media (prefers-reduced-motion: no-preference) {
